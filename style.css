@@ -576,7 +576,7 @@ button:focus-visible,
   .hero {
     background-image: url("img/hero-mobile.png");
     background-size: cover;
-    background-position: center 90%;
+    background-position: 20% 90%;
     background-repeat: no-repeat;
     min-height: 100svh;
   }
