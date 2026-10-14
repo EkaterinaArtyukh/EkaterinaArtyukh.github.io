@@ -568,7 +568,7 @@ button:focus-visible,
 
 @media (max-width: 1024px) {
   .hero {
-    background-position: 65% center;
+    background-position: 60% 30%;
   }
 }
 
@@ -576,7 +576,7 @@ button:focus-visible,
   .hero {
     background-image: url("img/hero-mobile.png");
     background-size: cover;
-    background-position: 20% 90%;
+    background-position: 20% 30%;
     background-repeat: no-repeat;
     min-height: 100svh;
   }
