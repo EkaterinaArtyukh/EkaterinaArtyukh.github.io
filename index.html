@@ -8,6 +8,7 @@
     <meta
       content="Ekaterina Artyukh — стратегічна логістика, консалтинг, корпоративне навчання та міжнародна співпраця."
       name="description"
+      data-i18n-content="pageDescription"
     />
     <title>Ekaterina Artyukh — Стратегічна логістика та консалтинг</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -17,12 +18,17 @@
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
+    <script defer src="translations.js"></script>
     <script defer="" src="app.js"></script>
   </head>
   <body>
     <header class="site-header" id="top">
       <div class="header-inner">
-        <a aria-label="Ekaterina Artyukh — головна" class="brand" href="#top"
+        <a
+          aria-label="Ekaterina Artyukh — головна"
+          data-i18n-aria-label="brandAria"
+          class="brand"
+          href="#top"
           ><img
             alt="Ekaterina Artyukh — Logistics · Strategy"
             decoding="async"
@@ -30,21 +36,30 @@
             src="img/ekaterina-logo-white.webp"
             width="320"
         /></a>
-        <nav aria-label="Основна навігація" class="desktop-nav">
+        <nav
+          aria-label="Основна навігація"
+          data-i18n-aria-label="navMain"
+          class="desktop-nav"
+        >
           <a data-i18n="about" href="#about">ПРО МЕНЕ</a
           ><a data-i18n="expertise" href="#top">ЕКСПЕРТИЗА</a
           ><a data-i18n="services" href="#services">ПОСЛУГИ</a
           ><a data-i18n="training" href="#training">НАВЧАННЯ</a
           ><a data-i18n="speaking" href="#speaking">КОНФЕРЕНЦІЇ</a
-          ><a data-i18n="contact" href="https://wa.me/491627633221">КОНТАКТИ</a>
+          ><a data-i18n="contact" href="#contact">КОНТАКТИ</a>
         </nav>
         <div class="header-actions">
-          <div aria-label="Соціальні мережі" class="social-links">
+          <div
+            aria-label="Соціальні мережі"
+            data-i18n-aria-label="socialMedia"
+            class="social-links"
+          >
             <a
               aria-label="Телефон — +49 162 7633221"
               class="social-icon"
               href="tel:+491627633221"
               title="Телефон"
+              data-i18n-title="phoneTitle"
               ><svg aria-hidden="true" viewbox="0 0 24 24">
                 <path
                   d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.56 3.58.56a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.56 3.58a1 1 0 01-.25 1.01z"
@@ -62,9 +77,11 @@
                 ></path></svg></a
             ><span
               aria-label="Telegram — посилання очікується"
+              data-i18n-aria-label="telegramPending"
               class="social-icon social-icon--pending"
               role="img"
               title="Telegram: потрібен нікнейм або посилання"
+              data-i18n-title="telegramTitle"
               ><svg aria-hidden="true" viewbox="0 0 24 24">
                 <path
                   d="M21.9 4.6 18.7 19.8c-.24 1.07-.87 1.33-1.77.83l-4.9-3.6-2.36 2.28c-.26.26-.48.48-.98.48l.35-4.96L18.1 6.6c.4-.35-.09-.55-.62-.2L6.26 13.47l-4.83-1.5c-1.05-.33-1.07-1.05.22-1.56L20.53 3.1c.88-.33 1.65.2 1.37 1.5z"
@@ -72,7 +89,12 @@
               </svg>
             </span>
           </div>
-          <div aria-label="Оберіть мову" class="lang-switch" role="group">
+          <div
+            aria-label="Оберіть мову"
+            data-i18n-aria-label="chooseLanguage"
+            class="lang-switch"
+            role="group"
+          >
             <button
               aria-pressed="true"
               class="active"
@@ -99,6 +121,7 @@
       </div>
       <nav
         aria-label="Мобільна навігація"
+        data-i18n-aria-label="navMobile"
         class="mobile-nav"
         id="mobile-nav"
         inert=""
@@ -108,13 +131,18 @@
         ><a data-i18n="services" href="#services">ПОСЛУГИ</a
         ><a data-i18n="training" href="#training">НАВЧАННЯ</a
         ><a data-i18n="speaking" href="#speaking">КОНФЕРЕНЦІЇ</a
-        ><a data-i18n="contact" href="https://wa.me/491627633221">КОНТАКТИ</a>
-        <div aria-label="Соціальні мережі" class="social-links">
+        ><a data-i18n="contact" href="#contact">КОНТАКТИ</a>
+        <div
+          aria-label="Соціальні мережі"
+          data-i18n-aria-label="socialMedia"
+          class="social-links"
+        >
           <a
             aria-label="Телефон — +49 162 7633221"
             class="social-icon"
             href="tel:+491627633221"
             title="Телефон"
+            data-i18n-title="phoneTitle"
             ><svg aria-hidden="true" viewbox="0 0 24 24">
               <path
                 d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.56 3.58.56a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.56 3.58a1 1 0 01-.25 1.01z"
@@ -137,6 +165,7 @@
             class="social-icon"
             href="viber://chat?number=%2B491627633221"
             title="Viber"
+            data-i18n-title="viberTitle"
           >
             <svg aria-hidden="true" viewbox="0 0 24 24">
               <path
@@ -146,9 +175,11 @@
           </a>
           <span
             aria-label="Telegram — посилання очікується"
+            data-i18n-aria-label="telegramPending"
             class="social-icon social-icon--pending"
             role="img"
             title="Telegram: потрібен нікнейм або посилання"
+            data-i18n-title="telegramTitle"
           >
             <svg aria-hidden="true" viewbox="0 0 24 24">
               <path
@@ -163,6 +194,7 @@
       <section aria-labelledby="hero-title" class="hero">
         <div
           aria-label="Катерина Артюх — міжнародна експертка з логістики"
+          data-i18n-aria-label="heroImage"
           class="hero-photo"
           role="img"
         ></div>
@@ -192,7 +224,11 @@
         </div>
       </section>
 
-      <section class="benefits" aria-label="Наші переваги">
+      <section
+        class="benefits benefits-hero"
+        aria-label="Наші переваги"
+        data-i18n-aria-label="benefitsAria"
+      >
         <div class="benefits-carousel" id="benefitsCarousel">
           <div class="benefits-track">
             <article class="benefit">
@@ -260,12 +296,12 @@
       >
         <div class="about-container">
           <div class="about-layout">
-            <!-- ЛІВА ЧАСТИНА — ФОТО -->
             <div class="about-visual">
               <div class="about-photo-frame">
                 <img
                   src="img/about.jpg"
                   alt="Катерина Артюх — міжнародна експертка з логістики та лідерства"
+                  data-i18n-alt="aboutImage"
                   class="about-photo"
                   loading="lazy"
                   decoding="async"
@@ -279,7 +315,6 @@
               </div>
             </div>
 
-            <!-- ПРАВА ЧАСТИНА — ТЕКСТ -->
             <div class="about-info">
               <h2 class="about-title" id="about-title" data-i18n="aboutHeading">
                 Катерина Артюх
@@ -287,8 +322,7 @@
 
               <div class="about-subtitle">
                 <p data-i18n="aboutSubtitle">
-                  Міжнародна експертка<br />
-                  з логістики та лідерства
+                  Міжнародна експертка з логістики та лідерства
                 </p>
               </div>
 
@@ -327,6 +361,15 @@
                   мислення.
                 </p>
               </div>
+              <button
+                type="button"
+                class="btn btn-primary about-details-trigger"
+                data-about-open
+                data-i18n="aboutDetailsButton"
+                aria-haspopup="dialog"
+              >
+                ДЕТАЛЬНІШЕ
+              </button>
             </div>
           </div>
         </div>
@@ -408,7 +451,6 @@
       </section>
 
       <section class="expertise-section" id="expertise">
-        <!-- EDITORIAL BANNER -->
         <div
           class="expertise-banner"
           role="img"
@@ -420,7 +462,6 @@
         </div>
 
         <div class="expertise-container">
-          <!-- CENTERED HEADING -->
           <header class="expertise-heading">
             <h2>
               <span data-i18n="expertiseTitleFirst"> Основні напрями </span>
@@ -433,7 +474,6 @@
             </p>
           </header>
 
-          <!-- CARDS -->
           <div class="expertise-viewport" id="expertiseCarousel">
             <div class="expertise-grid">
               <article class="expertise-card" data-expertise="international">
@@ -563,7 +603,6 @@
                 </div>
               </article>
 
-              <!-- WHITE LOGO -->
               <div class="expertise-logo" aria-hidden="true">
                 <img
                   src="img/ekaterina-logo-white.webp"
@@ -670,7 +709,6 @@
             </div>
           </div>
 
-          <!-- MOBILE SLIDER CONTROLS -->
           <div class="expertise-navigation">
             <span class="expertise-counter" aria-live="polite">
               <span id="expertiseCurrent">01</span>
@@ -702,8 +740,6 @@
           </div>
         </div>
       </section>
-
-      <!-- TEXT-ONLY MODAL -->
 
       <div
         class="expertise-modal"
@@ -789,7 +825,7 @@
             <div class="hero-buttons">
               <a
                 class="btn btn-primary"
-                data-i18n="cta"
+                data-i18n="speakerInvite"
                 href="https://wa.me/491627633221"
                 >ЗАПРОСИТИ МЕНЕ ЯК СПІКЕРКУ</a
               ><a
@@ -822,6 +858,1183 @@
           LOGISTICS · STRATEGY · LEADERSHIP
         </span>
       </div>
+      <section
+        class="training-section expertise-section"
+        id="training"
+        aria-labelledby="training-title"
+      >
+        <div class="training-shell">
+          <header class="expertise-heading">
+            <h2>
+              <span data-i18n="trainingTitleFirst"> Навчання, тренінги </span>
+              <em data-i18n="trainingTitleSecond"> та вебінари </em>
+            </h2>
+
+            <p data-i18n="trainingIntro">
+              Практичні знання та інструменти для кожного етапу професійного
+              розвитку — від перших кроків у логістиці до стратегічного
+              управління бізнесом.
+            </p>
+          </header>
+
+          <div class="training-accordion" id="trainingAccordion">
+            <details class="training-item" open>
+              <summary class="training-trigger">
+                <span class="training-number">01</span
+                ><span class="training-name" data-i18n="trainingAudience1"
+                  >Для початківців і студентів</span
+                ><span class="training-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="training-panel">
+                <div class="training-panel-inner">
+                  <p class="training-panel-label" data-i18n="trainingTopics">
+                    ТЕМИ ПРОГРАМИ
+                  </p>
+                  <ul class="training-topics">
+                    <li data-i18n="trainingTopic1_1">
+                      Основи міжнародної логістики
+                    </li>
+                    <li data-i18n="trainingTopic1_2">
+                      Види транспорту та міжнародні перевезення
+                    </li>
+                    <li data-i18n="trainingTopic1_3">
+                      Основи фармацевтичної логістики
+                    </li>
+                    <li data-i18n="trainingTopic1_4">
+                      Вступ до логістики клінічних досліджень
+                    </li>
+                    <li data-i18n="trainingTopic1_5">
+                      Митні процеси та Incoterms
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+            <details class="training-item">
+              <summary class="training-trigger">
+                <span class="training-number">02</span
+                ><span class="training-name" data-i18n="trainingAudience2"
+                  >Для досвідчених фахівців</span
+                ><span class="training-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="training-panel">
+                <div class="training-panel-inner">
+                  <p class="training-panel-label" data-i18n="trainingTopics">
+                    ТЕМИ ПРОГРАМИ
+                  </p>
+                  <ul class="training-topics">
+                    <li data-i18n="trainingTopic2_1">
+                      Мультимодальні перевезення
+                    </li>
+                    <li data-i18n="trainingTopic2_2">Холодовий ланцюг</li>
+                    <li data-i18n="trainingTopic2_3">
+                      Логістика клінічних досліджень
+                    </li>
+                    <li data-i18n="trainingTopic2_4">GDP/GxP</li>
+                    <li data-i18n="trainingTopic2_5">Управління ризиками</li>
+                    <li data-i18n="trainingTopic2_6">
+                      Business Continuity Plan
+                    </li>
+                    <li data-i18n="trainingTopic2_7">
+                      Управління логістичними провайдерами
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+            <details class="training-item">
+              <summary class="training-trigger">
+                <span class="training-number">03</span
+                ><span class="training-name" data-i18n="trainingAudience3"
+                  >Для керівників відділів</span
+                ><span class="training-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="training-panel">
+                <div class="training-panel-inner">
+                  <p class="training-panel-label" data-i18n="trainingTopics">
+                    ТЕМИ ПРОГРАМИ
+                  </p>
+                  <ul class="training-topics">
+                    <li data-i18n="trainingTopic3_1">
+                      Управління логістичними командами
+                    </li>
+                    <li data-i18n="trainingTopic3_2">
+                      KPI та ефективність операцій
+                    </li>
+                    <li data-i18n="trainingTopic3_3">
+                      Управління клієнтськими відносинами
+                    </li>
+                    <li data-i18n="trainingTopic3_4">
+                      Оптимізація логістичних витрат
+                    </li>
+                    <li data-i18n="trainingTopic3_5">
+                      Управління ризиками й кризовими ситуаціями
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+            <details class="training-item">
+              <summary class="training-trigger">
+                <span class="training-number">04</span
+                ><span class="training-name" data-i18n="trainingAudience4"
+                  >Для CEO, COO та власників бізнесу</span
+                ><span class="training-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="training-panel">
+                <div class="training-panel-inner">
+                  <p class="training-panel-label" data-i18n="trainingTopics">
+                    ТЕМИ ПРОГРАМИ
+                  </p>
+                  <ul class="training-topics">
+                    <li data-i18n="trainingTopic4_1">
+                      Стратегічне управління логістикою
+                    </li>
+                    <li data-i18n="trainingTopic4_2">
+                      Логістика як конкурентна перевага
+                    </li>
+                    <li data-i18n="trainingTopic4_3">
+                      Побудова стійких ланцюгів постачання
+                    </li>
+                    <li data-i18n="trainingTopic4_4">Аутсорсинг логістики</li>
+                    <li data-i18n="trainingTopic4_5">
+                      Управління операційними ризиками
+                    </li>
+                    <li data-i18n="trainingTopic4_6">Бізнес-безперервність</li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="benefits benefits-education"
+        aria-label="Формати навчання"
+      >
+        <div class="benefits-carousel" id="trainingBenefitsCarousel">
+          <div class="benefits-track">
+            <article class="benefit">
+              <img
+                class="benefit-icon"
+                src="img/education-1.png"
+                alt=""
+                draggable="false"
+              />
+              <div class="benefit-content">
+                <h3 data-i18n="trainingFormat1">ОНЛАЙН-ВЕБІНАРИ</h3>
+              </div>
+            </article>
+
+            <article class="benefit">
+              <img
+                class="benefit-icon"
+                src="img/education-2.png"
+                alt=""
+                draggable="false"
+              />
+              <div class="benefit-content">
+                <h3 data-i18n="trainingFormat2">КОРПОРАТИВНІ ТРЕНІНГИ</h3>
+              </div>
+            </article>
+
+            <article class="benefit">
+              <img
+                class="benefit-icon"
+                src="img/education-3.png"
+                alt=""
+                draggable="false"
+              />
+              <div class="benefit-content">
+                <h3 data-i18n="trainingFormat3">ІНДИВІДУАЛЬНІ КОНСУЛЬТАЦІЇ</h3>
+              </div>
+            </article>
+
+            <article class="benefit">
+              <img
+                class="benefit-icon"
+                src="img/education-4.png"
+                alt=""
+                draggable="false"
+              />
+              <div class="benefit-content">
+                <h3 data-i18n="trainingFormat4">ГРУПОВІ ПРОГРАМИ</h3>
+              </div>
+            </article>
+
+            <article class="benefit">
+              <img
+                class="benefit-icon"
+                src="img/education-5.png"
+                alt=""
+                draggable="false"
+              />
+              <div class="benefit-content">
+                <h3 data-i18n="trainingFormat5">МЕНТОРСТВО</h3>
+              </div>
+            </article>
+
+            <article class="benefit">
+              <img
+                class="benefit-icon"
+                src="img/education-6.png"
+                alt=""
+                draggable="false"
+              />
+              <div class="benefit-content">
+                <h3 data-i18n="trainingFormat6">
+                  АВТОРСЬКІ НАВЧАЛЬНІ МАТЕРІАЛИ
+                </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-labelledby="consulting-heading"
+        class="expertise-section consulting-section"
+        id="services"
+      >
+        <div class="expertise-container">
+          <header class="expertise-heading">
+            <h2 id="consulting-heading">
+              <span data-i18n="consultingHeading1"> Консалтинг </span>
+              <em data-i18n="consultingHeading2"> та аутсорсинг </em>
+            </h2>
+            <p data-i18n="consultingIntro">
+              Практична експертиза для оптимізації логістики, стійкості поставок
+              та розвитку вашого бізнесу.
+            </p>
+          </header>
+          <div class="expertise-viewport" id="consultingCarousel">
+            <div class="expertise-grid">
+              <article class="expertise-card" data-consulting="consult">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-1.png"
+                />
+                <span class="expertise-card-tag"> 01 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_consult_title">Логістичний консалтинг</h3>
+                  <p data-i18n="svc_consult_desc">
+                    Стратегічні рішення для ефективної логістики.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="consult"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="audit">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-2.png"
+                />
+                <span class="expertise-card-tag"> 02 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_audit_title">
+                    Аудит та аналіз логістичних процесів
+                  </h3>
+                  <p data-i18n="svc_audit_desc">
+                    Виявлення вузьких місць і точок зростання.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="audit"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="transport">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-3.png"
+                />
+                <span class="expertise-card-tag"> 03 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_transport_title">
+                    Оптимізація міжнародних перевезень
+                  </h3>
+                  <p data-i18n="svc_transport_desc">
+                    Кращі маршрути, строки та транспортні витрати.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="transport"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="risk">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-4.png"
+                />
+                <span class="expertise-card-tag"> 04 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_risk_title">
+                    Оцінювання логістичних ризиків
+                  </h3>
+                  <p data-i18n="svc_risk_desc">
+                    Системний підхід до ризиків постачання.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="risk"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <div aria-hidden="true" class="expertise-logo">
+                <img
+                  alt=""
+                  loading="lazy"
+                  src="img/ekaterina-logo-white.webp"
+                />
+                <span> LOGISTICS · STRATEGY · LEADERSHIP </span>
+              </div>
+              <article class="expertise-card" data-consulting="bcp">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-5.png"
+                />
+                <span class="expertise-card-tag"> 05 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_bcp_title">
+                    Розроблення та вдосконалення BCP
+                  </h3>
+                  <p data-i18n="svc_bcp_desc">
+                    Безперервність логістики під час криз.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="bcp"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="outsourcing">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-6.png"
+                />
+                <span class="expertise-card-tag"> 06 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_outsourcing_title">
+                    Аутсорсинг логістичних функцій
+                  </h3>
+                  <p data-i18n="svc_outsourcing_desc">
+                    Професійне управління без розширення штату.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="outsourcing"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="trade">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-7.png"
+                />
+                <span class="expertise-card-tag"> 07 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_trade_title">
+                    Координація зовнішньоекономічної діяльності
+                  </h3>
+                  <p data-i18n="svc_trade_desc">
+                    Узгодженість учасників міжнародної угоди.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="trade"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="projects">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-8.png"
+                />
+                <span class="expertise-card-tag"> 08 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_projects_title">
+                    Проєктна підтримка міжнародних поставок
+                  </h3>
+                  <p data-i18n="svc_projects_desc">
+                    Супровід складних і нестандартних поставок.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="projects"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="team">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/consulting-9.png"
+                />
+                <span class="expertise-card-tag"> 09 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_team_title">
+                    Зовнішня логістична команда для бізнесу
+                  </h3>
+                  <p data-i18n="svc_team_desc">
+                    Гнучка команда експертів під задачі бізнесу.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="team"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+              <article class="expertise-card" data-consulting="leaders">
+                <img
+                  alt=""
+                  class="expertise-card-image"
+                  loading="lazy"
+                  src="img/education-10.png"
+                />
+                <span class="expertise-card-tag"> 10 / 10 </span>
+                <div class="expertise-card-body">
+                  <h3 data-i18n="svc_leaders_title">
+                    Навчання та консультаційна підтримка керівників
+                  </h3>
+                  <p data-i18n="svc_leaders_desc">
+                    Управлінські інструменти для логістичних команд.
+                  </p>
+                  <button
+                    class="expertise-card-btn"
+                    data-open-consulting="leaders"
+                    type="button"
+                  >
+                    <span data-i18n="consultingMore"> ЧИТАТИ БІЛЬШЕ </span>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="expertise-navigation">
+            <span aria-live="polite" class="expertise-counter">
+              <span id="consultingCurrent"> 01 </span>
+              <span class="expertise-counter-divider"> / </span>
+              <span> 10 </span>
+            </span>
+            <div class="expertise-arrows">
+              <button
+                aria-label="Попередня послуга"
+                class="expertise-arrow expertise-prev"
+                data-i18n-aria-label="consultingPrev"
+                type="button"
+              >
+                <svg aria-hidden="true" viewbox="0 0 80 24">
+                  <path d="M79 12H2M13 1L2 12l11 11"></path>
+                </svg>
+              </button>
+              <button
+                aria-label="Наступна послуга"
+                class="expertise-arrow expertise-next"
+                data-i18n-aria-label="consultingNext"
+                type="button"
+              >
+                <svg aria-hidden="true" viewbox="0 0 80 24">
+                  <path d="M1 12h77M67 1l11 11-11 11"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        aria-hidden="true"
+        aria-labelledby="consultingModalTitle"
+        aria-modal="true"
+        class="expertise-modal"
+        id="consultingModal"
+        inert=""
+        role="dialog"
+      >
+        <div class="expertise-modal-backdrop" data-close-consulting=""></div>
+        <div class="expertise-modal-panel">
+          <button
+            aria-label="Закрити вікно"
+            class="expertise-modal-close"
+            data-close-consulting=""
+            data-i18n-aria-label="consultingClose"
+            type="button"
+          >
+            <span> </span>
+            <span> </span>
+          </button>
+          <div class="expertise-modal-content">
+            <span class="expertise-modal-eyebrow">
+              CONSULTING · OUTSOURCING
+            </span>
+            <h2 id="consultingModalTitle"></h2>
+            <p class="expertise-modal-intro" id="consultingModalIntro"></p>
+            <div
+              class="consulting-modal-details"
+              id="consultingModalDetails"
+            ></div>
+            <a
+              class="expertise-modal-cta"
+              data-i18n="consultingCTA"
+              href="https://wa.me/491627633221"
+              id="consultingModalCTA"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              ЗАМОВИТИ КОНСУЛЬТАЦІЮ
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-bottom">
+        <span>EXPERIENCE</span>
+        <span class="about-bottom-line"></span>
+        <span>STRATEGY</span>
+        <span class="about-bottom-line"></span>
+        <span>LEADERSHIP</span>
+      </div>
+
+      <section
+        class="blog-slider-section"
+        id="blog"
+        aria-label="Блог та експертні публікації"
+      >
+        <div class="blog-slider-viewport">
+          <article class="blog-slide is-active">
+            <div
+              class="blog-slide-image"
+              style="
+                background-image: url(&quot;https://img.youtube.com/vi/KFuJpV9whDA/maxresdefault.jpg&quot;);
+              "
+            ></div>
+            <div class="hero-shade"></div>
+
+            <div class="hero-content">
+              <p class="eyebrow">ЕКСПЕРТНІ ПУБЛІКАЦІЇ · ВЕБІНАР</p>
+              <h2 class="title">
+                Гнучкість і безперервність холодних ланцюгів постачання
+              </h2>
+              <p class="hero-copy">
+                Критичні стандарти та практика їх дотримання в глобальній
+                логістиці. Вебінар у Транспортному університеті, Київ.
+              </p>
+              <div class="hero-buttons">
+                <a
+                  class="btn btn-primary"
+                  href="https://www.youtube.com/watch?v=KFuJpV9whDA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ПЕРЕГЛЯНУТИ ВЕБІНАР
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-slide" aria-hidden="true" inert>
+            <div
+              class="blog-slide-image"
+              style="
+                background-image: url(&quot;https://img.youtube.com/vi/8PqM_0h76kM/maxresdefault.jpg&quot;);
+              "
+            ></div>
+            <div class="hero-shade"></div>
+
+            <div class="hero-content">
+              <p class="eyebrow">ЕКСПЕРТНІ ПУБЛІКАЦІЇ · ВЕБІНАР</p>
+              <h2 class="title">
+                Організація мультимодального перевезення ортофосфорної кислоти
+              </h2>
+              <p class="hero-copy">
+                Практичний кейс перевезення небезпечного вантажу класу 8 з Китаю
+                (Фанченг) до України (Одеса — Київ).
+              </p>
+              <div class="hero-buttons">
+                <a
+                  class="btn btn-primary"
+                  href="https://www.youtube.com/watch?v=8PqM_0h76kM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ПЕРЕГЛЯНУТИ ВЕБІНАР
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-slide" aria-hidden="true" inert>
+            <div
+              class="blog-slide-image"
+              style="
+                background-image: url(&quot;https://img.youtube.com/vi/pH1bhsZ9YvM/maxresdefault.jpg&quot;);
+              "
+            ></div>
+            <div class="hero-shade"></div>
+
+            <div class="hero-content">
+              <p class="eyebrow">ЕКСПЕРТНІ ПУБЛІКАЦІЇ · ВІДЕО</p>
+              <h2 class="title">Новий міст між Україною та Румунією</h2>
+              <p class="hero-copy">
+                Які можливості він відкриває для міжнародної логістики,
+                транспортного сполучення та економічної співпраці? Ексклюзивний
+                матеріал з кордону.
+              </p>
+              <div class="hero-buttons">
+                <a
+                  class="btn btn-primary"
+                  href="https://www.youtube.com/watch?v=pH1bhsZ9YvM&amp;t=3s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ПЕРЕГЛЯНУТИ ВІДЕО
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="blog-slider-navigation">
+          <span class="expertise-counter" aria-live="polite">
+            <span id="blogCurrent">01</span>
+            <span class="expertise-counter-divider">/</span>
+            <span>03</span>
+          </span>
+
+          <div class="expertise-arrows">
+            <button
+              type="button"
+              class="expertise-arrow expertise-prev blog-prev"
+              aria-label="Попередня публікація"
+              disabled
+            >
+              <svg viewBox="0 0 80 24" aria-hidden="true">
+                <path d="M79 12H2M13 1L2 12l11 11" />
+              </svg>
+            </button>
+
+            <button
+              type="button"
+              class="expertise-arrow expertise-next blog-next"
+              aria-label="Наступна публікація"
+            >
+              <svg viewBox="0 0 80 24" aria-hidden="true">
+                <path d="M1 12h77M67 1l11 11-11 11" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div
+        class="expertise-banner contacts"
+        role="img"
+        aria-label="EXPERTISE — напрями експертизи"
+      >
+        <span class="expertise-banner-caption">
+          LOGISTICS · STRATEGY · LEADERSHIP
+        </span>
+      </div>
+
+      <section
+        class="contacts-editorial quote-section quote-motion-ready is-visible"
+        id="contact"
+        aria-labelledby="contacts-title"
+      >
+        <div class="contacts-editorial-main">
+          <div class="container contacts-editorial-layout">
+            <div class="contacts-editorial-intro">
+              <span
+                class="contacts-editorial-kicker"
+                data-i18n="contactsEyebrow"
+              >
+                КОНТАКТИ
+              </span>
+
+              <h2 id="contacts-title" class="contacts-editorial-title">
+                <span data-i18n="contactsTitleOne">Будьмо</span>
+                <em data-i18n="contactsTitleTwo">на зв’язку.</em>
+              </h2>
+
+              <p
+                class="contacts-editorial-description"
+                data-i18n="contactsDescription"
+              >
+                Відкрита до нових проєктів, професійних партнерств та
+                міжнародної співпраці.
+              </p>
+
+              <a
+                href="mailto:ekaterina.artyukh@gmail.com"
+                class="btn btn-primary contacts-editorial-cta"
+                data-i18n="contactsCta"
+              >
+                НАПИСАТИ МЕНІ
+              </a>
+            </div>
+
+            <div class="contacts-editorial-info">
+              <div class="contacts-editorial-item">
+                <span class="contacts-editorial-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="2.5" y="5" width="19" height="14" rx="1" />
+                    <path d="m3 7 9 6 9-6" />
+                  </svg>
+                </span>
+
+                <div>
+                  <span
+                    class="contacts-editorial-label"
+                    data-i18n="contactsEmailLabel"
+                  >
+                    ЕЛЕКТРОННА ПОШТА
+                  </span>
+                  <a
+                    class="contacts-editorial-value"
+                    href="mailto:ekaterina.artyukh@gmail.com"
+                  >
+                    ekaterina.artyukh@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contacts-editorial-item">
+                <span class="contacts-editorial-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M21 16.7v3a2 2 0 0 1-2.2 2A19 19 0 0 1 2.3 5.2 2 2 0 0 1 4.3 3h3a2 2 0 0 1 2 1.7l.5 2.8a2 2 0 0 1-.6 1.8L7.5 11a15 15 0 0 0 5.5 5.5l1.7-1.7a2 2 0 0 1 1.8-.6l2.8.5a2 2 0 0 1 1.7 2Z"
+                    />
+                  </svg>
+                </span>
+
+                <div>
+                  <span
+                    class="contacts-editorial-label"
+                    data-i18n="contactsPhoneLabel"
+                  >
+                    WHATSAPP / ТЕЛЕФОН
+                  </span>
+                  <a class="contacts-editorial-value" href="tel:+491627633221">
+                    +49 162 7633221
+                  </a>
+                  <a
+                    class="contacts-editorial-sub"
+                    href="https://wa.me/491627633221"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-i18n="contactsWhatsappLink"
+                  >
+                    Написати у WhatsApp
+                  </a>
+                </div>
+              </div>
+
+              <div class="contacts-editorial-item">
+                <span class="contacts-editorial-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M21.5 3 2.5 10.8l7.4 2.5 2.6 7.7L21.5 3Z" />
+                    <path d="M9.9 13.3 21.5 3" />
+                  </svg>
+                </span>
+
+                <div>
+                  <span class="contacts-editorial-label">
+                    TELEGRAM / VIBER
+                  </span>
+                  <a class="contacts-editorial-value" href="tel:+447379295362">
+                    +44 73 7929 5362
+                  </a>
+                  <div class="contacts-editorial-messengers">
+                    <a
+                      href="https://t.me/+447379295362"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Telegram
+                    </a>
+                    <span aria-hidden="true">|</span>
+                    <a href="viber://chat?number=%2B447379295362"> Viber </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contacts-editorial-item">
+                <span class="contacts-editorial-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="2.6" />
+                  </svg>
+                </span>
+
+                <div>
+                  <span
+                    class="contacts-editorial-label"
+                    data-i18n="contactsLocationLabel"
+                  >
+                    ЛОКАЦІЯ
+                  </span>
+                  <span
+                    class="contacts-editorial-value"
+                    data-i18n="contactsLocation"
+                  >
+                    Гамбург, Німеччина
+                  </span>
+                  <span
+                    class="contacts-editorial-sub"
+                    data-i18n="contactsTravel"
+                  >
+                    Відкрита до ділових поїздок
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts-editorial-social">
+            <span
+              class="contacts-editorial-label"
+              data-i18n="contactsSocialLabel"
+            >
+              СОЦІАЛЬНІ МЕРЕЖІ
+            </span>
+
+            <div class="contacts-editorial-social-links">
+              <a
+                href="https://www.linkedin.com/in/ekaterina-artyukh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="2" />
+                  <path d="M7 10v7M7 7v.1M11 17v-7M11 13a3 3 0 0 1 6 0v4" />
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="5" width="20" height="14" rx="4" />
+                  <path d="m10 9 5 3-5 3Z" />
+                </svg>
+                <span>YouTube</span>
+              </a>
+
+              <a
+                href="https://instagram.com/ekaterina.logisticsglobal?psln=NG01MWJxdGo4YTRq&amp;utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle class="instagram-dot" cx="17.5" cy="6.5" r="1" />
+                </svg>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="contacts-editorial-photo"
+          role="img"
+          aria-label="Атмосферне робоче місце"
+        ></div>
+      </section>
+
+      <footer class="contacts-footer">
+        <div class="container contacts-footer-inner">
+          <a href="#top" class="contacts-footer-brand">
+            EKATERINA ARTYUKH
+            <span>LOGISTICS · STRATEGY</span>
+          </a>
+
+          <nav class="contacts-footer-nav" aria-label="Навігація у футері">
+            <a href="#about" data-i18n="about">ПРО МЕНЕ</a>
+            <a href="#expertise" data-i18n="expertise">ЕКСПЕРТИЗА</a>
+            <a href="#services" data-i18n="services">ПОСЛУГИ</a>
+            <a href="#training" data-i18n="training">НАВЧАННЯ</a>
+            <a href="#speaking" data-i18n="speaking">КОНФЕРЕНЦІЇ</a>
+            <a href="#contact" data-i18n="contact">КОНТАКТИ</a>
+          </nav>
+
+          <span class="contacts-footer-copy">
+            © <span id="contactsFooterYear">2026</span> Ekaterina Artyukh
+          </span>
+        </div>
+      </footer>
     </main>
+
+    <div
+      class="about-detail-modal"
+      id="aboutDetailModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="aboutDetailHeading"
+      aria-hidden="true"
+      inert
+    >
+      <div class="about-detail-panel" tabindex="-1">
+        <button
+          type="button"
+          class="about-detail-close"
+          data-about-close
+          aria-label="Закрити"
+          data-i18n-aria-label="aboutDetailsClose"
+        >
+          ×
+        </button>
+        <div class="about-detail-head">
+          <span class="about-detail-eyebrow" data-i18n="aboutDetailsEyebrow"
+            >ПРОФЕСІЙНИЙ ПРОФІЛЬ</span
+          >
+          <h2 id="aboutDetailHeading" data-i18n="aboutDetailsHeading">
+            Досвід, що формує рішення.
+          </h2>
+          <p data-i18n="aboutDetailsLead">
+            Понад 20 років у міжнародній логістиці, фармацевтичних ланцюгах
+            постачання та управлінні ризиками.
+          </p>
+        </div>
+        <div class="about-detail-columns">
+          <div class="about-detail-story">
+            <div class="about-detail-block">
+              <span data-i18n="aboutDetailsWorkLabel">ПРОФЕСІЙНИЙ ДОСВІД</span>
+              <h3>Marken · UPS Healthcare Precision Logistics</h3>
+              <p data-i18n="aboutDetailsWork">
+                Senior Client Relationship Manager. Робота з логістикою
+                клінічних досліджень, фармацевтичними поставками, холодовим
+                ланцюгом та небезпечними вантажами.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/ekaterina-artyukh-935a1284/details/experience/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="aboutDetailsProfile"
+                >ПРОФІЛЬ У LINKEDIN</a
+              >
+            </div>
+            <div class="about-detail-block">
+              <span data-i18n="aboutDetailsExpertiseLabel">СПЕЦІАЛІЗАЦІЯ</span>
+              <p data-i18n="aboutDetailsExpertise">
+                Міжнародні авіаційні та морські перевезення, небезпечні вантажі,
+                температурно-контрольована логістика, IATA, GDP, GCP, GMP,
+                GDocP, GManP, GTP, розроблення та впровадження SOP.
+              </p>
+            </div>
+            <div class="about-detail-block">
+              <span data-i18n="aboutDetailsGeographyLabel"
+                >МІЖНАРОДНА ПРАКТИКА</span
+              >
+              <p data-i18n="aboutDetailsGeography">
+                Координація перевезень між Азією, США, Канадою, Південною
+                Америкою, Європою, Близьким Сходом, Африкою та Австралією.
+                Робота з документацією UKRSEPRO, МОЗ і кодами HS.
+              </p>
+            </div>
+            <div class="about-detail-block">
+              <span data-i18n="aboutDetailsEducationLabel">ОСВІТА ТА МОВИ</span>
+              <p data-i18n="aboutDetailsEducation">
+                Запорізький державний університет. Мови: українська та
+                англійська.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/ekaterina-artyukh-935a1284/details/education/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="aboutDetailsEducationLink"
+                >ПЕРЕГЛЯНУТИ ОСВІТУ</a
+              >
+            </div>
+          </div>
+          <div class="about-detail-certificates">
+            <div class="about-detail-certs-heading">
+              <div>
+                <span
+                  class="about-detail-eyebrow"
+                  data-i18n="aboutDetailsAwardsLabel"
+                  >СЕРТИФІКАТИ ТА ВІДЗНАКИ</span
+                >
+                <h3 data-i18n="aboutDetailsAwardsHeading">
+                  Професійне визнання
+                </h3>
+              </div>
+              <span class="about-detail-count"
+                ><span id="aboutCertCurrent">01</span> / 06</span
+              >
+            </div>
+            <div
+              class="about-cert-viewport"
+              id="aboutCertCarousel"
+              aria-live="polite"
+            >
+              <article class="about-cert-slide is-active">
+                <span class="about-cert-index">01 / 06</span
+                ><span class="about-cert-type" data-i18n="aboutCertTypeCargo"
+                  >АВІАЦІЙНА ЛОГІСТИКА</span
+                >
+                <h4 data-i18n="aboutCertCargo">Cargo Agent</h4>
+                <p data-i18n="aboutCertIssuer">
+                  Національний авіаційний університет, Київ
+                </p>
+                <span class="about-cert-id">CI-170422 · 07.2017</span>
+              </article>
+              <article class="about-cert-slide">
+                <span class="about-cert-index">02 / 06</span
+                ><span class="about-cert-type" data-i18n="aboutCertTypeCargo"
+                  >АВІАЦІЙНА ЛОГІСТИКА</span
+                >
+                <h4 data-i18n="aboutCertCargo">Cargo Agent</h4>
+                <p data-i18n="aboutCertIssuer">
+                  Національний авіаційний університет, Київ
+                </p>
+                <span class="about-cert-id">CI-210422 · 12.2021</span>
+              </article>
+              <article class="about-cert-slide">
+                <span class="about-cert-index">03 / 06</span
+                ><span
+                  class="about-cert-type"
+                  data-i18n="aboutCertTypeDangerous"
+                  >НЕБЕЗПЕЧНІ ВАНТАЖІ</span
+                >
+                <h4 data-i18n="aboutCertDangerous">Dangerous Goods</h4>
+                <p data-i18n="aboutCertIssuer">
+                  Національний авіаційний університет, Київ
+                </p>
+                <span class="about-cert-id">751492 · 01.2022</span>
+              </article>
+              <article class="about-cert-slide">
+                <span class="about-cert-index">04 / 06</span
+                ><span
+                  class="about-cert-type"
+                  data-i18n="aboutCertTypeDangerous"
+                  >НЕБЕЗПЕЧНІ ВАНТАЖІ</span
+                >
+                <h4 data-i18n="aboutCertDangerous">Dangerous Goods</h4>
+                <p data-i18n="aboutCertIssuer">
+                  Національний авіаційний університет, Київ
+                </p>
+                <span class="about-cert-id">414412 · 07.2019</span>
+              </article>
+              <article class="about-cert-slide about-cert-slide--photo">
+                <a
+                  class="about-cert-photo-link"
+                  href="img/diploma-speaker-2025.webp"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Відкрити диплом спікерки 2025 у повному розмірі"
+                  data-i18n-aria-label="aboutCertOpenImage2025"
+                  ><img
+                    src="img/diploma-speaker-2025.webp"
+                    alt="Диплом спікерки Катерини Артюх, День Логіста 2025"
+                    data-i18n-alt="aboutCertImageAlt2025"
+                    loading="lazy"
+                    decoding="async"
+                /></a>
+                <p data-i18n="aboutCertSpeaker2025">
+                  Диплом спікерки · листопад 2025
+                </p>
+              </article>
+              <article class="about-cert-slide about-cert-slide--photo">
+                <a
+                  class="about-cert-photo-link"
+                  href="img/diploma-speaker-2026.webp"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Відкрити диплом спікерки 2026 у повному розмірі"
+                  data-i18n-aria-label="aboutCertOpenImage2026"
+                  ><img
+                    src="img/diploma-speaker-2026.webp"
+                    alt="Диплом спікерки Катерини Артюх, День Логіста 2026"
+                    data-i18n-alt="aboutCertImageAlt2026"
+                    loading="lazy"
+                    decoding="async"
+                /></a>
+                <p data-i18n="aboutCertSpeaker2026">
+                  Диплом спікерки · травень 2026
+                </p>
+              </article>
+            </div>
+            <div class="about-cert-navigation">
+              <button
+                type="button"
+                class="expertise-arrow about-cert-prev"
+                aria-label="Попередній сертифікат"
+                data-i18n-aria-label="aboutCertPrev"
+              >
+                <svg viewBox="0 0 80 24" aria-hidden="true">
+                  <path d="M79 12H2M13 1L2 12l11 11" />
+                </svg></button
+              ><button
+                type="button"
+                class="expertise-arrow about-cert-next"
+                aria-label="Наступний сертифікат"
+                data-i18n-aria-label="aboutCertNext"
+              >
+                <svg viewBox="0 0 80 24" aria-hidden="true">
+                  <path d="M1 12h77M67 1l11 11-11 11" />
+                </svg>
+              </button>
+            </div>
+            <p class="about-cert-disclaimer" data-i18n="aboutCertNote">
+              Дипломи спікерки 2025 і 2026 років можна відкрити у повному
+              розмірі. Для решти сертифікатів поки наведено реквізити.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

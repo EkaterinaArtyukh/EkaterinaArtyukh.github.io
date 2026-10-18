@@ -1,267 +1,16 @@
 "use strict";
-const translations = {
-  uk: {
-    aboutHeading: "Катерина Артюх",
-    aboutSubtitle: "Міжнародна експертка<br>з логістики та лідерства",
-    aboutIntro:
-      "Понад 20 років практичного досвіду у сфері міжнародної логістики дозволили мені працювати з глобальними проєктами, складними ланцюгами постачання та високоризиковими операціями.",
-    aboutP2:
-      "Я допомагаю компаніям будувати ефективні логістичні системи, розробляти стратегії розвитку, створювати сильні команди та приймати рішення, які забезпечують довгострокову конкурентну перевагу.",
-    aboutP3:
-      "У своїй роботі я поєдную стратегічне бачення з практичним розумінням бізнес-процесів. Для мене важливо не лише визначити правильний напрямок, а й знайти конкретні інструменти для його реалізації.",
-    aboutP4:
-      "Особливу увагу приділяю управлінню ризиками, оптимізації міжнародних ланцюгів постачання, розвитку управлінських компетенцій та формуванню команд, здатних ефективно діяти в умовах невизначеності.",
-    aboutP5:
-      "Моя місія — перетворювати складні логістичні виклики на керовані бізнес-рішення та допомагати організаціям зростати через професійну експертизу, інновації та стратегічне мислення.",
-    benefitsTitle: "Експертиза, що створює цінність",
-    brandSub: "LOGISTICS · STRATEGY",
-    about: "ПРО МЕНЕ",
-    expertise: "ЕКСПЕРТИЗА",
-    services: "ПОСЛУГИ",
-    training: "НАВЧАННЯ",
-    speaking: "КОНФЕРЕНЦІЇ",
-    contact: "КОНТАКТИ",
-    eyebrow: "МІЖНАРОДНА ЕКСПЕРТИЗА",
-    title: "Стратегічна логістика.<br>Практичні рішення.",
-    description:
-      "Консалтинг, корпоративне навчання та рішення для складних бізнес-завдань.",
-    cta: "ОБГОВОРИТИ СПІВПРАЦЮ",
-    secondary: "МОЯ ЕКСПЕРТИЗА",
-    b1: "МІЖНАРОДНИЙ ПІДХІД",
-    b1s: "Мислення без кордонів",
-    b2: "БІЗНЕС-КОНСАЛТИНГ",
-    b2s: "Рішення для бізнесу",
-    b3: "ПРАКТИЧНІ РІШЕННЯ",
-    b3s: "Від аналізу до результату",
-    b4: "ЛЮДИ ТА ПАРТНЕРСТВО",
-    b4s: "Співпраця на довіру",
-    next: "Стратегія, що працює.",
-    nextCopy: "Наступні секції додамо після погодження першого екрана.",
-    contactTitle: "Обговорімо співпрацю",
-    contactNote:
-      "Контактні дані та форма заявки будуть додані після погодження.",
-    quoteFirst: "Я ВІРЮ, ЩО СТРАТЕГІЧНА ЛОГІСТИКА — ЦЕ НЕ ЛИШЕ ПРО ПРОЦЕСИ.",
+const translations = window.siteTranslations;
 
-    quoteSecond:
-      "ЦЕ ПРО ЛЮДЕЙ, ДОВІРУ ТА МОЖЛИВОСТІ, ЯКІ ВІДКРИВАЮТЬСЯ, КОЛИ Є ЧІТКЕ БАЧЕННЯ.",
-
-    quoteCta: "ОБГОВОРИТИ СПІВПРАЦЮ",
-    quoteMore: "БІЛЬШЕ ПРО МЕНЕ",
-    stat1: "РОКІВ ДОСВІДУ",
-    stat2: "УСПІШНИХ ПРОЄКТІВ",
-    stat3: "СПІВПРАЦЯ БЕЗ КОРДОНІВ",
-    stat4: "ОРІЄНТАЦІЯ НА РЕЗУЛЬТАТ",
-    expertiseTitleFirst: "Основні напрями",
-    expertiseTitleSecond: "експертизи",
-    expertiseIntro:
-      "Комплексний підхід до міжнародної логістики, складних ланцюгів постачання та управління ризиками.",
-    expertiseMore: "ЧИТАТИ БІЛЬШЕ",
-    expInternational: "Міжнародна логістика",
-    expInternationalDesc:
-      "Глобальні перевезення. Всі види транспорту. Оптимальні маршрути та витрати.",
-    expWarehouse: "Складська логістика та дистрибуція",
-    expWarehouseDesc:
-      "Ефективні складські процеси, управління запасами та безперебійна дистрибуція.",
-    expPharma: "Фармацевтична логістика",
-    expPharmaDesc:
-      "Температурний контроль. Холодовий ланцюг. Відповідність GDP/GxP.",
-    expClinical: "Логістика клінічних досліджень",
-    expClinicalDesc:
-      "Міжнародні поставки для клінічних досліджень та високочутливих біоматеріалів.",
-    expCustoms: "Митні процеси та зовнішньоекономічна діяльність",
-    expCustomsDesc:
-      "Експортно-імпортні операції. Документація. Incoterms та регуляторні вимоги.",
-    expDangerous: "Небезпечні вантажі",
-    expDangerousDesc:
-      "Організація спеціалізованих перевезень з урахуванням міжнародних вимог.",
-    expRisks: "Управління ризиками та безперервністю діяльності",
-    expRisksDesc:
-      "Стратегічне планування, альтернативні маршрути та готовність до кризових ситуацій.",
-    expTagInternational: "GLOBAL LOGISTICS",
-    expTagWarehouse: "SUPPLY CHAIN",
-    expTagPharma: "PHARMA",
-    expTagClinical: "CLINICAL TRIALS",
-    expTagCustoms: "CUSTOMS & TRADE",
-    expTagDangerous: "SPECIAL CARGO",
-    expTagRisks: "RISK MANAGEMENT",
-  },
-  en: {
-    aboutHeading: "Ekaterina Artyukh",
-    aboutSubtitle: "International expert<br>in logistics and leadership",
-    aboutIntro:
-      "Over 20 years of hands-on experience in international logistics have given me the opportunity to work on global projects, complex supply chains and high-risk operations.",
-    aboutP2:
-      "I help companies build efficient logistics systems, develop growth strategies, create strong teams and make decisions that deliver a lasting competitive advantage.",
-    aboutP3:
-      "In my work, I combine strategic vision with a practical understanding of business processes. For me, it is important not only to identify the right direction but also to find concrete tools to put it into practice.",
-    aboutP4:
-      "I focus particularly on risk management, optimizing international supply chains, developing leadership capabilities and building teams that can perform effectively in uncertain conditions.",
-    aboutP5:
-      "My mission is to turn complex logistics challenges into manageable business solutions and help organizations grow through professional expertise, innovation and strategic thinking.",
-    benefitsTitle: "Expertise that creates value",
-    brandSub: "LOGISTICS · STRATEGY",
-    about: "ABOUT",
-    expertise: "EXPERTISE",
-    services: "SERVICES",
-    training: "TRAINING",
-    speaking: "SPEAKING",
-    contact: "CONTACT",
-    eyebrow: "INTERNATIONAL EXPERTISE",
-    title: "Strategic logistics.<br>Practical solutions.",
-    description:
-      "Consulting, corporate training and solutions for complex business challenges.",
-    cta: "DISCUSS COLLABORATION",
-    secondary: "MY EXPERTISE",
-    b1: "INTERNATIONAL APPROACH",
-    b1s: "Global perspective",
-    b2: "BUSINESS CONSULTING",
-    b2s: "From strategy to action",
-    b3: "PRACTICAL SOLUTIONS",
-    b3s: "Results-oriented",
-    b4: "PEOPLE & PARTNERSHIP",
-    b4s: "Sustainable development",
-    next: "Strategy that works.",
-    nextCopy: "Further sections will follow once the hero is approved.",
-    contactTitle: "Let’s collaborate",
-    contactNote:
-      "Contact details and enquiry form will be added after approval.",
-    quoteFirst: "I BELIEVE STRATEGIC LOGISTICS IS NOT JUST ABOUT PROCESSES.",
-
-    quoteSecond:
-      "IT IS ABOUT PEOPLE, TRUST AND OPPORTUNITIES THAT OPEN UP WHEN THERE IS A CLEAR VISION.",
-
-    quoteCta: "DISCUSS COLLABORATION",
-    quoteMore: "MORE ABOUT ME",
-    stat1: "YEARS OF EXPERIENCE",
-    stat2: "SUCCESSFUL PROJECTS",
-    stat3: "COLLABORATION WITHOUT BORDERS",
-    stat4: "RESULT-ORIENTED",
-    expertiseTitleFirst: "Areas of",
-    expertiseTitleSecond: "expertise",
-    expertiseIntro:
-      "An integrated approach to international logistics, complex supply chains and risk management.",
-    expertiseMore: "READ MORE",
-    expInternational: "International Logistics",
-    expInternationalDesc:
-      "Global transportation across all major modes. Optimized routes and costs.",
-    expWarehouse: "Warehousing & Distribution",
-    expWarehouseDesc:
-      "Efficient warehouse operations, inventory management and reliable distribution.",
-    expPharma: "Pharmaceutical Logistics",
-    expPharmaDesc:
-      "Temperature control, cold chain management and GDP/GxP compliance.",
-    expClinical: "Clinical Trial Logistics",
-    expClinicalDesc:
-      "International shipments for clinical trials and sensitive biological materials.",
-    expCustoms: "Customs & Foreign Trade",
-    expCustomsDesc:
-      "Import and export operations, documentation, Incoterms and regulatory requirements.",
-    expDangerous: "Dangerous Goods",
-    expDangerousDesc:
-      "Specialized transportation in line with international requirements.",
-    expRisks: "Risk & Business Continuity",
-    expRisksDesc:
-      "Strategic planning, alternative routes and crisis preparedness.",
-    expTagInternational: "GLOBAL LOGISTICS",
-    expTagWarehouse: "SUPPLY CHAIN",
-    expTagPharma: "PHARMA",
-    expTagClinical: "CLINICAL TRIALS",
-    expTagCustoms: "CUSTOMS & TRADE",
-    expTagDangerous: "SPECIAL CARGO",
-    expTagRisks: "RISK MANAGEMENT",
-  },
-  de: {
-    aboutHeading: "Ekaterina Artyukh",
-    aboutSubtitle: "Internationale Expertin<br>für Logistik und Führung",
-    aboutIntro:
-      "Dank mehr als 20 Jahren praktischer Erfahrung in der internationalen Logistik konnte ich an globalen Projekten, komplexen Lieferketten und risikoreichen Geschäftsprozessen arbeiten.",
-    aboutP2:
-      "Ich unterstütze Unternehmen dabei, effiziente Logistiksysteme aufzubauen, Wachstumsstrategien zu entwickeln, starke Teams zu formen und Entscheidungen zu treffen, die langfristige Wettbewerbsvorteile sichern.",
-    aboutP3:
-      "In meiner Arbeit verbinde ich strategischen Weitblick mit einem praxisnahen Verständnis von Geschäftsprozessen. Entscheidend ist für mich, nicht nur die richtige Richtung zu bestimmen, sondern auch konkrete Instrumente für die Umsetzung zu finden.",
-    aboutP4:
-      "Besonderes Augenmerk lege ich auf Risikomanagement, die Optimierung internationaler Lieferketten, die Entwicklung von Führungskompetenzen und den Aufbau von Teams, die auch unter unsicheren Bedingungen erfolgreich handeln.",
-    aboutP5:
-      "Meine Mission ist es, komplexe logistische Herausforderungen in steuerbare Geschäftslösungen zu verwandeln und Organisationen durch Fachkompetenz, Innovation und strategisches Denken beim Wachstum zu unterstützen.",
-    benefitsTitle: "Expertise, die Werte schafft",
-    brandSub: "LOGISTIK · STRATEGIE",
-    about: "ÜBER MICH",
-    expertise: "EXPERTISE",
-    services: "LEISTUNGEN",
-    training: "SCHULUNGEN",
-    speaking: "VORTRÄGE",
-    contact: "KONTAKT",
-    eyebrow: "INTERNATIONALE EXPERTISE",
-    title: "Strategische Logistik.<br>Praktische Lösungen.",
-    description:
-      "Beratung, Unternehmenstrainings und Lösungen für komplexe geschäftliche Herausforderungen.",
-    cta: "ZUSAMMENARBEIT ANFRAGEN",
-    secondary: "MEINE EXPERTISE",
-    b1: "INTERNATIONALER ANSATZ",
-    b1s: "Globale Perspektive",
-    b2: "UNTERNEHMENSBERATUNG",
-    b2s: "Von der Strategie zur Umsetzung",
-    b3: "PRAKTISCHE LÖSUNGEN",
-    b3s: "Ergebnisorientiert",
-    b4: "MENSCHEN & PARTNER",
-    b4s: "Nachhaltige Entwicklung",
-    next: "Strategie, die wirkt.",
-    nextCopy: "Weitere Bereiche folgen nach Freigabe des Einstiegsbereichs.",
-    contactTitle: "Zusammenarbeit besprechen",
-    contactNote: "Kontaktdaten und Anfrageformular folgen nach Freigabe.",
-    quoteFirst: "ICH GLAUBE, STRATEGISCHE LOGISTIK IST MEHR ALS NUR PROZESSE.",
-
-    quoteSecond:
-      "ES GEHT UM MENSCHEN, VERTRAUEN UND CHANCEN, DIE SICH DURCH EINE KLARE VISION ERÖFFNEN.",
-
-    quoteCta: "ZUSAMMENARBEIT ANFRAGEN",
-    quoteMore: "MEHR ÜBER MICH",
-    stat1: "JAHRE ERFAHRUNG",
-    stat2: "ERFOLGREICHE PROJEKTE",
-    stat3: "ZUSAMMENARBEIT OHNE GRENZEN",
-    stat4: "ERGEBNISORIENTIERT",
-    expertiseTitleFirst: "Meine",
-    expertiseTitleSecond: "Expertise",
-    expertiseIntro:
-      "Ein ganzheitlicher Ansatz für internationale Logistik, komplexe Lieferketten und Risikomanagement.",
-    expertiseMore: "MEHR ERFAHREN",
-    expInternational: "Internationale Logistik",
-    expInternationalDesc:
-      "Weltweite Transporte mit allen wichtigen Verkehrsträgern. Optimierte Routen und Kosten.",
-    expWarehouse: "Lagerlogistik & Distribution",
-    expWarehouseDesc:
-      "Effiziente Lagerprozesse, Bestandsmanagement und zuverlässige Distribution.",
-    expPharma: "Pharmalogistik",
-    expPharmaDesc:
-      "Temperaturkontrolle, Kühlkettenmanagement und GDP/GxP-Konformität.",
-    expClinical: "Logistik für klinische Studien",
-    expClinicalDesc:
-      "Internationale Lieferungen für klinische Studien und empfindliche biologische Materialien.",
-    expCustoms: "Zoll & Außenwirtschaft",
-    expCustomsDesc:
-      "Import und Export, Dokumentation, Incoterms und regulatorische Anforderungen.",
-    expDangerous: "Gefahrguttransporte",
-    expDangerousDesc:
-      "Spezialisierte Transporte unter Berücksichtigung internationaler Anforderungen.",
-    expRisks: "Risiko- & Kontinuitätsmanagement",
-    expRisksDesc:
-      "Strategische Planung, alternative Routen und Krisenvorsorge.",
-    expTagInternational: "GLOBALE LOGISTIK",
-    expTagWarehouse: "LIEFERKETTE",
-    expTagPharma: "PHARMA",
-    expTagClinical: "KLINISCHE STUDIEN",
-    expTagCustoms: "ZOLL & HANDEL",
-    expTagDangerous: "GEFAHRGUT",
-    expTagRisks: "RISIKOMANAGEMENT",
-  },
-};
 const menuButton = document.querySelector(".menu-toggle");
 const mobileNav = document.querySelector(".mobile-nav");
 function setMenu(open) {
   menuButton.setAttribute("aria-expanded", String(open));
   menuButton.setAttribute(
     "aria-label",
-    open ? "Закрити меню" : "Відкрити меню",
+    open
+      ? translations[document.documentElement.lang]?.menuClose || "Закрити меню"
+      : translations[document.documentElement.lang]?.menuOpen ||
+          "Відкрити меню",
   );
   mobileNav.classList.toggle("open", open);
   mobileNav.inert = !open;
@@ -283,12 +32,32 @@ function setLanguage(lang) {
   const t = translations[lang];
   if (!t) return;
   document.documentElement.lang = lang;
+  const menuToggle = document.querySelector(".menu-toggle");
+  if (menuToggle)
+    menuToggle.setAttribute(
+      "aria-label",
+      menuToggle.getAttribute("aria-expanded") === "true"
+        ? t.menuClose
+        : t.menuOpen,
+    );
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.dataset.i18n;
     if (!Object.prototype.hasOwnProperty.call(t, key)) return;
     if (key === "title" || key === "aboutSubtitle") el.innerHTML = t[key];
     else el.textContent = t[key];
   });
+
+  document
+    .querySelectorAll(
+      "[data-i18n-aria-label], [data-i18n-title], [data-i18n-alt], [data-i18n-content]",
+    )
+    .forEach((el) => {
+      for (const attr of ["aria-label", "title", "alt", "content"]) {
+        const key = el.getAttribute("data-i18n-" + attr);
+        if (key && Object.prototype.hasOwnProperty.call(t, key))
+          el.setAttribute(attr, t[key]);
+      }
+    });
   document.querySelectorAll("[data-lang]").forEach((btn) => {
     const active = btn.dataset.lang === lang;
     btn.classList.toggle("active", active);
@@ -308,125 +77,139 @@ document
     btn.addEventListener("click", () => setLanguage(btn.dataset.lang)),
   );
 
+
+
 (() => {
-  const carousel = document.querySelector("#benefitsCarousel");
-  if (!carousel) return;
+  const carousels = document.querySelectorAll(
+    "#benefitsCarousel, #trainingBenefitsCarousel",
+  );
 
-  const track = carousel.querySelector(".benefits-track");
-  const originals = [...track.children];
-  if (!originals.length) return;
+  carousels.forEach((carousel) => {
+    const track = carousel.querySelector(".benefits-track");
+    if (!track) return;
 
-  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const originals = [...track.children];
+    if (!originals.length) return;
 
-  originals.forEach((item) => {
-    const clone = item.cloneNode(true);
-    clone.setAttribute("aria-hidden", "true");
-    clone.removeAttribute("id");
-    track.appendChild(clone);
-  });
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-  let position = 0;
-  let cycleWidth = 0;
-  let lastTime = 0;
-  let dragging = false;
-  let pointerStart = 0;
-  let positionStart = 0;
-  let paused = false;
-  let resumeAt = 0;
+    originals.forEach((item) => {
+      const clone = item.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      clone.removeAttribute("id");
+      track.appendChild(clone);
+    });
 
-  const speed = 32;
+    let position = 0;
+    let cycleWidth = 0;
+    let lastTime = 0;
+    let dragging = false;
+    let pointerStart = 0;
+    let positionStart = 0;
+    let paused = false;
+    let resumeAt = 0;
 
-  function measure() {
-    const previousWidth = cycleWidth;
-    cycleWidth = originals.reduce(
-      (total, item) => total + item.getBoundingClientRect().width,
-      0,
-    );
+    const speed = 32;
 
-    if (previousWidth > 0) {
-      position = (position / previousWidth) * cycleWidth;
+    function normalize(value) {
+      if (!cycleWidth) return 0;
+      return ((value % cycleWidth) + cycleWidth) % cycleWidth;
     }
 
-    render();
-  }
+    function render() {
+      track.style.transform = `translate3d(${-normalize(position)}px, 0, 0)`;
+    }
 
-  function normalize(value) {
-    if (!cycleWidth) return 0;
-    return ((value % cycleWidth) + cycleWidth) % cycleWidth;
-  }
+    function measure() {
+      const previousWidth = cycleWidth;
 
-  function render() {
-    track.style.transform = `translate3d(${-normalize(position)}px, 0, 0)`;
-  }
+      const styles = getComputedStyle(track);
+      const gap = parseFloat(styles.columnGap) || 0;
 
-  function animate(time) {
-    if (!lastTime) lastTime = time;
+      cycleWidth = originals.reduce(
+        (total, item) => total + item.getBoundingClientRect().width + gap,
+        0,
+      );
 
-    const delta = Math.min((time - lastTime) / 1000, 0.05);
-    lastTime = time;
+      if (previousWidth > 0) {
+        position = (position / previousWidth) * cycleWidth;
+      }
 
-    if (
-      !dragging &&
-      !paused &&
-      time >= resumeAt &&
-      !reduceMotion.matches &&
-      !document.hidden
-    ) {
-      position = normalize(position + speed * delta);
       render();
     }
 
+    function animate(time) {
+      if (!lastTime) lastTime = time;
+
+      const delta = Math.min((time - lastTime) / 1000, 0.05);
+
+      lastTime = time;
+
+      if (
+        !dragging &&
+        !paused &&
+        time >= resumeAt &&
+        !reduceMotion.matches &&
+        !document.hidden
+      ) {
+        position = normalize(position + speed * delta);
+        render();
+      }
+
+      requestAnimationFrame(animate);
+    }
+
+    carousel.addEventListener("pointerdown", (event) => {
+      if (event.pointerType === "mouse" && event.button !== 0) return;
+
+      dragging = true;
+      pointerStart = event.clientX;
+      positionStart = position;
+
+      carousel.classList.add("is-dragging");
+      carousel.setPointerCapture(event.pointerId);
+    });
+
+    carousel.addEventListener("pointermove", (event) => {
+      if (!dragging) return;
+
+      position = normalize(positionStart - (event.clientX - pointerStart));
+
+      render();
+    });
+
+    function endDrag() {
+      if (!dragging) return;
+
+      dragging = false;
+      carousel.classList.remove("is-dragging");
+      resumeAt = performance.now() + 1800;
+    }
+
+    carousel.addEventListener("pointerup", endDrag);
+    carousel.addEventListener("pointercancel", endDrag);
+    carousel.addEventListener("lostpointercapture", endDrag);
+
+    carousel.addEventListener("mouseenter", () => {
+      paused = true;
+    });
+
+    carousel.addEventListener("mouseleave", () => {
+      paused = false;
+    });
+
+    carousel.addEventListener("dragstart", (event) => {
+      event.preventDefault();
+    });
+
+    window.addEventListener("resize", measure);
+
+    measure();
     requestAnimationFrame(animate);
-  }
-
-  carousel.addEventListener("pointerdown", (event) => {
-    if (event.pointerType === "mouse" && event.button !== 0) return;
-
-    dragging = true;
-    pointerStart = event.clientX;
-    positionStart = position;
-    carousel.classList.add("is-dragging");
-    carousel.setPointerCapture(event.pointerId);
   });
-
-  carousel.addEventListener("pointermove", (event) => {
-    if (!dragging) return;
-
-    position = normalize(positionStart - (event.clientX - pointerStart));
-    render();
-  });
-
-  function endDrag() {
-    if (!dragging) return;
-
-    dragging = false;
-    carousel.classList.remove("is-dragging");
-    resumeAt = performance.now() + 1800;
-  }
-
-  carousel.addEventListener("pointerup", endDrag);
-  carousel.addEventListener("pointercancel", endDrag);
-  carousel.addEventListener("lostpointercapture", endDrag);
-
-  carousel.addEventListener("mouseenter", () => {
-    paused = true;
-  });
-
-  carousel.addEventListener("mouseleave", () => {
-    paused = false;
-  });
-
-  carousel.addEventListener("dragstart", (event) => {
-    event.preventDefault();
-  });
-
-  window.addEventListener("resize", measure);
-
-  measure();
-  requestAnimationFrame(animate);
 })();
 
-// ABOUT — staggered reveal on scroll, without changing the portrait or layout.
+
 (() => {
   const section = document.querySelector(".about-section");
   if (!section) return;
@@ -464,7 +247,7 @@ document
   targets.forEach((element) => observer.observe(element));
 })();
 
-/* QUOTE SECTION — SCROLL REVEAL */
+
 
 (() => {
   const section = document.querySelector(".quote-section");
@@ -497,9 +280,9 @@ document
   observer.observe(section);
 })();
 
-/* ====================================
-   STATS CAROUSEL
-==================================== */
+
+
+
 
 (() => {
   const carousel = document.querySelector("#statsCarousel");
@@ -523,7 +306,7 @@ document
 
   const speed = 28;
 
-  // Клонуємо елементи для безшовного циклу
+  
   originals.forEach((item) => {
     const clone = item.cloneNode(true);
     clone.setAttribute("aria-hidden", "true");
@@ -576,7 +359,7 @@ document
     requestAnimationFrame(animate);
   }
 
-  // Перетягування мишкою та пальцем
+  
 
   carousel.addEventListener("pointerdown", (event) => {
     if (event.pointerType === "mouse" && event.button !== 0) return;
@@ -628,9 +411,9 @@ document
   requestAnimationFrame(animate);
 })();
 
-/* ==========================================
-   EXPERTISE — MODAL + MOBILE CAROUSEL
-========================================== */
+
+
+
 
 (() => {
   const section = document.querySelector(".expertise-section");
@@ -946,4 +729,306 @@ document
   });
 
   updateCounter();
+})();
+
+
+(() => {
+  const accordion = document.getElementById("trainingAccordion");
+  if (!accordion) return;
+  const items = [...accordion.querySelectorAll(".training-item")];
+  items.forEach((item) => {
+    item.addEventListener("toggle", () => {
+      if (!item.open) return;
+      items.forEach((other) => {
+        if (other !== item) other.open = false;
+      });
+    });
+  });
+})();
+
+
+(() => {
+  const section = document.getElementById("services");
+  const viewport = document.getElementById("consultingCarousel");
+  const modal = document.getElementById("consultingModal");
+  if (!section || !viewport || !modal) return;
+
+  const cards = [
+    ...section.querySelectorAll(".expertise-card[data-consulting]"),
+  ];
+  const prev = section.querySelector(".expertise-prev");
+  const next = section.querySelector(".expertise-next");
+  const counter = document.getElementById("consultingCurrent");
+  const modalTitle = document.getElementById("consultingModalTitle");
+  const modalIntro = document.getElementById("consultingModalIntro");
+  const modalDetails = document.getElementById("consultingModalDetails");
+  const modalCTA = document.getElementById("consultingModalCTA");
+  const closeButton = modal.querySelector(".expertise-modal-close");
+  if (!cards.length || !modalTitle || !modalIntro || !modalDetails || !modalCTA)
+    return;
+
+  let activeIndex = 0;
+  let lastFocus = null;
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const getLang = () =>
+    document.documentElement.lang in translations
+      ? document.documentElement.lang
+      : "uk";
+  const getDict = () => translations[getLang()] || translations.uk;
+
+  function updateCounter() {
+    if (counter) counter.textContent = String(activeIndex + 1).padStart(2, "0");
+    if (prev) prev.disabled = activeIndex === 0;
+    if (next) next.disabled = activeIndex === cards.length - 1;
+  }
+
+  function goTo(index) {
+    activeIndex = Math.max(0, Math.min(cards.length - 1, index));
+    const card = cards[activeIndex];
+    viewport.scrollTo({
+      left: card.offsetLeft - cards[0].offsetLeft,
+      behavior: reducedMotion.matches ? "auto" : "smooth",
+    });
+    updateCounter();
+  }
+
+  prev?.addEventListener("click", () => goTo(activeIndex - 1));
+  next?.addEventListener("click", () => goTo(activeIndex + 1));
+
+  let scrollFrame = 0;
+  viewport.addEventListener(
+    "scroll",
+    () => {
+      cancelAnimationFrame(scrollFrame);
+      scrollFrame = requestAnimationFrame(() => {
+        const center =
+          viewport.getBoundingClientRect().left + viewport.clientWidth / 2;
+        let best = Infinity;
+        cards.forEach((card, i) => {
+          const rect = card.getBoundingClientRect();
+          const distance = Math.abs(rect.left + rect.width / 2 - center);
+          if (distance < best) {
+            best = distance;
+            activeIndex = i;
+          }
+        });
+        updateCounter();
+      });
+    },
+    { passive: true },
+  );
+
+  function addDetail(label, value) {
+    const group = document.createElement("div");
+    group.className = "consulting-detail-group";
+    const heading = document.createElement("h3");
+    heading.textContent = label;
+    const paragraph = document.createElement("p");
+    paragraph.textContent = value;
+    group.append(heading, paragraph);
+    modalDetails.append(group);
+  }
+
+  function openModal(key, trigger) {
+    const card = cards.find((item) => item.dataset.consulting === key);
+    if (!card) return;
+    const t = getDict();
+    const prefix = `svc_${key}_`;
+    lastFocus = trigger;
+    modalTitle.textContent =
+      t[prefix + "title"] || card.querySelector("h3")?.textContent.trim() || "";
+    modalIntro.textContent = t[prefix + "desc"] || "";
+    modalDetails.replaceChildren();
+    addDetail(t.consultingFor, t[prefix + "for"] || "");
+    addDetail(t.consultingProblem, t[prefix + "problem"] || "");
+    addDetail(t.consultingResult, t[prefix + "result"] || "");
+    addDetail(t.consultingOrder, t.consultingOrderText);
+    modalCTA.textContent = t.consultingCTA;
+    const message =
+      getLang() === "uk"
+        ? `Вітаю! Хочу замовити консультацію: ${modalTitle.textContent}.`
+        : getLang() === "de"
+          ? `Guten Tag! Ich möchte eine Beratung anfragen: ${modalTitle.textContent}.`
+          : `Hello! I would like to request a consultation: ${modalTitle.textContent}.`;
+    modalCTA.href = `https://wa.me/491627633221?text=${encodeURIComponent(message)}`;
+    modal.inert = false;
+    modal.setAttribute("aria-hidden", "false");
+    modal.classList.add("is-open");
+    document.body.classList.add("expertise-modal-open");
+    closeButton?.focus();
+  }
+
+  function closeModal() {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    modal.inert = true;
+    if (!document.querySelector(".expertise-modal.is-open")) {
+      document.body.classList.remove("expertise-modal-open");
+    }
+    lastFocus?.focus();
+  }
+
+  section.addEventListener("click", (event) => {
+    const trigger = event.target.closest("[data-open-consulting]");
+    if (trigger) openModal(trigger.dataset.openConsulting, trigger);
+  });
+  modal.addEventListener("click", (event) => {
+    if (event.target.closest("[data-close-consulting]")) closeModal();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (!modal.classList.contains("is-open")) return;
+    if (event.key === "Escape") {
+      closeModal();
+      return;
+    }
+    if (event.key !== "Tab") return;
+    const focusable = [
+      ...modal.querySelectorAll(
+        'button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
+      ),
+    ].filter((el) => el.getClientRects().length);
+    if (!focusable.length) return;
+    if (event.shiftKey && document.activeElement === focusable[0]) {
+      event.preventDefault();
+      focusable[focusable.length - 1].focus();
+    } else if (
+      !event.shiftKey &&
+      document.activeElement === focusable[focusable.length - 1]
+    ) {
+      event.preventDefault();
+      focusable[0].focus();
+    }
+  });
+  updateCounter();
+})();
+
+
+
+(() => {
+  const section = document.querySelector(".blog-slider-section");
+  if (!section) return;
+
+  const slides = [...section.querySelectorAll(".blog-slide")];
+  const prev = section.querySelector(".blog-prev");
+  const next = section.querySelector(".blog-next");
+  const current = section.querySelector("#blogCurrent");
+  const viewport = section.querySelector(".blog-slider-viewport");
+
+  let active = 0;
+  let touchStartX = 0;
+
+  function goTo(index) {
+    if (index < 0 || index >= slides.length) return;
+
+    active = index;
+
+    slides.forEach((slide, i) => {
+      const visible = i === active;
+      slide.classList.toggle("is-active", visible);
+      slide.setAttribute("aria-hidden", String(!visible));
+      slide.inert = !visible;
+    });
+
+    current.textContent = String(active + 1).padStart(2, "0");
+
+    prev.disabled = active === 0;
+    next.disabled = active === slides.length - 1;
+  }
+
+  prev.addEventListener("click", () => goTo(active - 1));
+  next.addEventListener("click", () => goTo(active + 1));
+
+  viewport.addEventListener(
+    "touchstart",
+    (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    },
+    { passive: true },
+  );
+
+  viewport.addEventListener(
+    "touchend",
+    (e) => {
+      const delta = touchStartX - e.changedTouches[0].screenX;
+
+      if (Math.abs(delta) < 55) return;
+
+      if (delta > 0) goTo(active + 1);
+      else goTo(active - 1);
+    },
+    { passive: true },
+  );
+
+  goTo(0);
+})();
+
+const contactsFooterYear = document.getElementById("contactsFooterYear");
+
+if (contactsFooterYear) {
+  contactsFooterYear.textContent = new Date().getFullYear();
+}
+
+
+(() => {
+  const modal = document.getElementById("aboutDetailModal");
+  const trigger = document.querySelector("[data-about-open]");
+  if (!modal || !trigger) return;
+  const panel = modal.querySelector(".about-detail-panel");
+  const close = modal.querySelector("[data-about-close]");
+  const slides = [...modal.querySelectorAll(".about-cert-slide")];
+  const prev = modal.querySelector(".about-cert-prev");
+  const next = modal.querySelector(".about-cert-next");
+  const count = document.getElementById("aboutCertCurrent");
+  let index = 0;
+  let lastFocus = null;
+  function render() {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("is-active", i === index);
+      slide.setAttribute("aria-hidden", String(i !== index));
+      slide.inert = i !== index;
+    });
+    count.textContent = String(index + 1).padStart(2, "0");
+    prev.disabled = index === 0;
+    next.disabled = index === slides.length - 1;
+  }
+  function open() {
+    lastFocus = document.activeElement;
+    modal.inert = false;
+    modal.setAttribute("aria-hidden", "false");
+    modal.classList.add("is-open");
+    document.body.classList.add("about-detail-open");
+    render();
+    panel.focus();
+  }
+  function dismiss() {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    modal.inert = true;
+    document.body.classList.remove("about-detail-open");
+    if (lastFocus) lastFocus.focus();
+  }
+  trigger.addEventListener("click", open);
+  close.addEventListener("click", dismiss);
+  modal.addEventListener("click", (event) => { if (event.target === modal) dismiss(); });
+  prev.addEventListener("click", () => { index = Math.max(0, index - 1); render(); });
+  next.addEventListener("click", () => { index = Math.min(slides.length - 1, index + 1); render(); });
+  modal.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") dismiss();
+    if (event.key === "ArrowLeft") { index = Math.max(0, index - 1); render(); }
+    if (event.key === "ArrowRight") { index = Math.min(slides.length - 1, index + 1); render(); }
+    if (event.key === "Tab") {
+      const focusable = [...modal.querySelectorAll('button:not(:disabled),a[href]:not([tabindex="-1"])')].filter(el => !el.closest('[inert]'));
+      if (!focusable.length) return;
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
+  });
+  let touchX = 0;
+  modal.querySelector(".about-cert-viewport").addEventListener("touchstart", e => { touchX = e.changedTouches[0].screenX; }, {passive:true});
+  modal.querySelector(".about-cert-viewport").addEventListener("touchend", e => {
+    const delta = touchX - e.changedTouches[0].screenX;
+    if (Math.abs(delta) > 55) { index = Math.max(0, Math.min(slides.length - 1, index + (delta > 0 ? 1 : -1))); render(); }
+  }, {passive:true});
+  render();
 })();
