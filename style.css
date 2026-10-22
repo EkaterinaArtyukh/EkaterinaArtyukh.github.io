@@ -1310,7 +1310,7 @@ button:focus-visible,
     ),
     url("img/quote-bg.png");
 
-  background-position: center;
+  background-position: 0 center;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -1484,7 +1484,7 @@ button:focus-visible,
 
     padding: 85px 22px;
 
-    background-position: 70% 0;
+    background-position: 63% 0;
   }
 
   .quote-section__content {
