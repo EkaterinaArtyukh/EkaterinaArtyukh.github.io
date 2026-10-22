@@ -5,16 +5,21 @@ window.siteTranslations = {
     aboutDetailsClose: "Закрити",
     aboutDetailsEyebrow: "ПРОФЕСІЙНИЙ ПРОФІЛЬ",
     aboutDetailsHeading: "Досвід, що формує рішення.",
-    aboutDetailsLead: "Понад 20 років у міжнародній логістиці, фармацевтичних ланцюгах постачання та управлінні ризиками.",
+    aboutDetailsLead:
+      "Понад 20 років у міжнародній логістиці, фармацевтичних ланцюгах постачання та управлінні ризиками.",
     aboutDetailsWorkLabel: "ПРОФЕСІЙНИЙ ДОСВІД",
-    aboutDetailsWork: "Senior Client Relationship Manager. Робота з логістикою клінічних досліджень, фармацевтичними поставками, холодовим ланцюгом та небезпечними вантажами.",
+    aboutDetailsWork:
+      "Senior Client Relationship Manager. Робота з логістикою клінічних досліджень, фармацевтичними поставками, холодовим ланцюгом та небезпечними вантажами.",
     aboutDetailsProfile: "ПРОФІЛЬ У LINKEDIN",
     aboutDetailsExpertiseLabel: "СПЕЦІАЛІЗАЦІЯ",
-    aboutDetailsExpertise: "Міжнародні авіаційні та морські перевезення, небезпечні вантажі, температурно-контрольована логістика, IATA, GDP, GCP, GMP, GDocP, GManP, GTP, розроблення та впровадження SOP.",
+    aboutDetailsExpertise:
+      "Міжнародні авіаційні та морські перевезення, небезпечні вантажі, температурно-контрольована логістика, IATA, GDP, GCP, GMP, GDocP, GManP, GTP, розроблення та впровадження SOP.",
     aboutDetailsGeographyLabel: "МІЖНАРОДНА ПРАКТИКА",
-    aboutDetailsGeography: "Координація перевезень між Азією, США, Канадою, Південною Америкою, Європою, Близьким Сходом, Африкою та Австралією. Робота з документацією UKRSEPRO, МОЗ і кодами HS.",
+    aboutDetailsGeography:
+      "Координація перевезень між Азією, США, Канадою, Південною Америкою, Європою, Близьким Сходом, Африкою та Австралією. Робота з документацією UKRSEPRO, МОЗ і кодами HS.",
     aboutDetailsEducationLabel: "ОСВІТА ТА МОВИ",
-    aboutDetailsEducation: "Запорізький державний університет. Мови: українська та англійська.",
+    aboutDetailsEducation:
+      "Запорізький державний університет. Мови: українська та англійська.",
     aboutDetailsEducationLink: "ПЕРЕГЛЯНУТИ ОСВІТУ",
     aboutDetailsAwardsLabel: "СЕРТИФІКАТИ ТА ВІДЗНАКИ",
     aboutDetailsAwardsHeading: "Професійне визнання",
@@ -29,12 +34,14 @@ window.siteTranslations = {
     aboutCertView: "ПЕРЕГЛЯНУТИ ДИПЛОМ",
     aboutCertPrev: "Попередній сертифікат",
     aboutCertNext: "Наступний сертифікат",
-    aboutCertNote: "Дипломи спікерки 2025 і 2026 років можна відкрити у повному розмірі. Для решти сертифікатів поки наведено реквізити.",
+    aboutCertNote:
+      "Дипломи спікерки 2025 і 2026 років можна відкрити у повному розмірі. Для решти сертифікатів поки наведено реквізити.",
 
     contactsEyebrow: "КОНТАКТИ",
     contactsTitleOne: "Будьмо",
     contactsTitleTwo: "на зв’язку.",
-    contactsDescription: "Відкрита до нових проєктів, професійних партнерств та міжнародної співпраці.",
+    contactsDescription:
+      "Відкрита до нових проєктів, професійних партнерств та міжнародної співпраці.",
     contactsCta: "НАПИСАТИ МЕНІ",
     contactsEmailLabel: "ЕЛЕКТРОННА ПОШТА",
     contactsPhoneLabel: "WHATSAPP / ТЕЛЕФОН",
@@ -165,7 +172,8 @@ window.siteTranslations = {
     trainingTopic4_6: "Бізнес-безперервність",
     speakerEyebrow: "МІЖНАРОДНА СПІКЕРКА",
     speakerTitleOne: "Міжнародна експертка та спікерка",
-    speakerDescription: "Ділюся практичним досвідом у міжнародній логістиці, управлінні ланцюгами постачання, фармацевтичній логістиці, клінічних дослідженнях, холодовому ланцюгу та управлінні ризиками.",
+    speakerDescription:
+      "Ділюся практичним досвідом у міжнародній логістиці, управлінні ланцюгами постачання, фармацевтичній логістиці, клінічних дослідженнях, холодовому ланцюгу та управлінні ризиками.",
     speakerEventType: "ВИСТУП НА КОНФЕРЕНЦІЇ",
     trainingTitleFirst: "Навчання, тренінги",
     trainingTitleSecond: "та вебінари",
@@ -183,99 +191,138 @@ window.siteTranslations = {
     socialMedia: "Соціальні мережі",
     chooseLanguage: "Оберіть мову",
     heroImage: "Катерина Артюх — міжнародна експертка з логістики",
-    aboutImage: "Катерина Артюх — міжнародна експертка з логістики та лідерства",
+    aboutImage:
+      "Катерина Артюх — міжнародна експертка з логістики та лідерства",
     benefitsAria: "Наші переваги",
     brandAria: "Ekaterina Artyukh — головна",
     phoneTitle: "Телефон",
     telegramPending: "Telegram — посилання очікується",
     telegramTitle: "Telegram: потрібен нікнейм або посилання",
     viberTitle: "Viber",
-    pageDescription: "Ekaterina Artyukh — стратегічна логістика, консалтинг, корпоративне навчання та міжнародна співпраця.",
+    pageDescription:
+      "Ekaterina Artyukh — стратегічна логістика, консалтинг, корпоративне навчання та міжнародна співпраця.",
     consultingHeading1: "Консалтинг",
     consultingHeading2: "та аутсорсинг",
-    consultingIntro: "Практична експертиза для оптимізації логістики, стійкості поставок та розвитку вашого бізнесу.",
+    consultingIntro:
+      "Практична експертиза для оптимізації логістики, стійкості поставок та розвитку вашого бізнесу.",
     consultingMore: "ЧИТАТИ БІЛЬШЕ",
-    consultingFor: 'Для кого',
-    consultingProblem: 'Яку проблему вирішує',
-    consultingResult: 'Очікуваний результат',
-    consultingOrder: 'Як замовити',
-    consultingOrderText: 'Натисніть кнопку нижче та напишіть у WhatsApp, коротко описавши вашу задачу. Ми узгодимо формат первинної консультації.',
-    consultingCTA: 'ЗАМОВИТИ КОНСУЛЬТАЦІЮ',
-    consultingClose: 'Закрити вікно',
-    consultingPrev: 'Попередня послуга',
-    consultingNext: 'Наступна послуга',
-    consultingBanner: 'Консалтинг та аутсорсинг',
+    consultingFor: "Для кого",
+    consultingProblem: "Яку проблему вирішує",
+    consultingResult: "Очікуваний результат",
+    consultingOrder: "Як замовити",
+    consultingOrderText:
+      "Натисніть кнопку нижче та напишіть у WhatsApp, коротко описавши вашу задачу. Ми узгодимо формат первинної консультації.",
+    consultingCTA: "ЗАМОВИТИ КОНСУЛЬТАЦІЮ",
+    consultingClose: "Закрити вікно",
+    consultingPrev: "Попередня послуга",
+    consultingNext: "Наступна послуга",
+    consultingBanner: "Консалтинг та аутсорсинг",
     svc_consult_title: "Логістичний консалтинг",
     svc_consult_desc: "Стратегічні рішення для ефективної логістики.",
-    svc_consult_for: "Компаніям, що масштабують операції або прагнуть впорядкувати логістику.",
-    svc_consult_problem: "Неузгоджені процеси, зайві витрати та відсутність цілісної стратегії.",
-    svc_consult_result: "Дорожня карта змін із пріоритетами, KPI та практичними рекомендаціями.",
+    svc_consult_for:
+      "Компаніям, що масштабують операції або прагнуть впорядкувати логістику.",
+    svc_consult_problem:
+      "Неузгоджені процеси, зайві витрати та відсутність цілісної стратегії.",
+    svc_consult_result:
+      "Дорожня карта змін із пріоритетами, KPI та практичними рекомендаціями.",
     svc_audit_title: "Аудит та аналіз логістичних процесів",
     svc_audit_desc: "Виявлення вузьких місць і точок зростання.",
-    svc_audit_for: "Бізнесу зі складними ланцюгами постачання або зростанням операційних витрат.",
-    svc_audit_problem: "Непрозорі витрати, затримки та нестабільна якість сервісу.",
-    svc_audit_result: "Карта процесів, оцінка ефективності та план оптимізації.",
+    svc_audit_for:
+      "Бізнесу зі складними ланцюгами постачання або зростанням операційних витрат.",
+    svc_audit_problem:
+      "Непрозорі витрати, затримки та нестабільна якість сервісу.",
+    svc_audit_result:
+      "Карта процесів, оцінка ефективності та план оптимізації.",
     svc_transport_title: "Оптимізація міжнародних перевезень",
     svc_transport_desc: "Кращі маршрути, строки та транспортні витрати.",
     svc_transport_for: "Імпортерам, експортерам та міжнародним компаніям.",
-    svc_transport_problem: "Дорогі маршрути, затримки та недостатня надійність перевезень.",
-    svc_transport_result: "Порівняння сценаріїв, оптимізована транспортна модель і контроль витрат.",
+    svc_transport_problem:
+      "Дорогі маршрути, затримки та недостатня надійність перевезень.",
+    svc_transport_result:
+      "Порівняння сценаріїв, оптимізована транспортна модель і контроль витрат.",
     svc_risk_title: "Оцінювання логістичних ризиків",
     svc_risk_desc: "Системний підхід до ризиків постачання.",
-    svc_risk_for: "Компаніям, залежним від міжнародних поставок та критичних маршрутів.",
-    svc_risk_problem: "Непередбачені збої, концентрація постачальників і відсутність резервних сценаріїв.",
-    svc_risk_result: "Матриця ризиків, пріоритети реагування та план зниження вразливостей.",
+    svc_risk_for:
+      "Компаніям, залежним від міжнародних поставок та критичних маршрутів.",
+    svc_risk_problem:
+      "Непередбачені збої, концентрація постачальників і відсутність резервних сценаріїв.",
+    svc_risk_result:
+      "Матриця ризиків, пріоритети реагування та план зниження вразливостей.",
     svc_bcp_title: "Розроблення та вдосконалення BCP",
     svc_bcp_desc: "Безперервність логістики під час криз.",
     svc_bcp_for: "Бізнесу, для якого зупинка поставок створює значні втрати.",
-    svc_bcp_problem: "Непідготовленість до збоїв, нечіткі ролі та повільне відновлення.",
-    svc_bcp_result: "BCP з альтернативними сценаріями, відповідальними особами та процедурами тестування.",
+    svc_bcp_problem:
+      "Непідготовленість до збоїв, нечіткі ролі та повільне відновлення.",
+    svc_bcp_result:
+      "BCP з альтернативними сценаріями, відповідальними особами та процедурами тестування.",
     svc_outsourcing_title: "Аутсорсинг логістичних функцій",
     svc_outsourcing_desc: "Професійне управління без розширення штату.",
-    svc_outsourcing_for: "Малому та середньому бізнесу або командам із піковим навантаженням.",
-    svc_outsourcing_problem: "Дефіцит експертизи, перевантаження команди та складність контролю підрядників.",
-    svc_outsourcing_result: "Узгоджений обсяг функцій, прозорі KPI та керовані операції.",
+    svc_outsourcing_for:
+      "Малому та середньому бізнесу або командам із піковим навантаженням.",
+    svc_outsourcing_problem:
+      "Дефіцит експертизи, перевантаження команди та складність контролю підрядників.",
+    svc_outsourcing_result:
+      "Узгоджений обсяг функцій, прозорі KPI та керовані операції.",
     svc_trade_title: "Координація зовнішньоекономічної діяльності",
     svc_trade_desc: "Узгодженість учасників міжнародної угоди.",
-    svc_trade_for: "Компаніям, що запускають або розвивають імпортно-експортні операції.",
-    svc_trade_problem: "Комунікаційні розриви, помилки в документах і затримки на стику процесів.",
-    svc_trade_result: "Зрозуміла схема взаємодії, контроль етапів та координація партнерів.",
+    svc_trade_for:
+      "Компаніям, що запускають або розвивають імпортно-експортні операції.",
+    svc_trade_problem:
+      "Комунікаційні розриви, помилки в документах і затримки на стику процесів.",
+    svc_trade_result:
+      "Зрозуміла схема взаємодії, контроль етапів та координація партнерів.",
     svc_projects_title: "Проєктна підтримка міжнародних поставок",
     svc_projects_desc: "Супровід складних і нестандартних поставок.",
-    svc_projects_for: "Компаніям із разовими масштабними або критично важливими поставками.",
-    svc_projects_problem: "Багато учасників, жорсткі строки та високий ризик помилок координації.",
-    svc_projects_result: "Проєктний план, контроль ключових точок та узгоджена комунікація.",
+    svc_projects_for:
+      "Компаніям із разовими масштабними або критично важливими поставками.",
+    svc_projects_problem:
+      "Багато учасників, жорсткі строки та високий ризик помилок координації.",
+    svc_projects_result:
+      "Проєктний план, контроль ключових точок та узгоджена комунікація.",
     svc_team_title: "Зовнішня логістична команда для бізнесу",
     svc_team_desc: "Гнучка команда експертів під задачі бізнесу.",
-    svc_team_for: "Компаніям без власного логістичного відділу або під час трансформації.",
-    svc_team_problem: "Нестача ресурсів для щоденної координації та стратегічного розвитку.",
-    svc_team_result: "Зовнішня операційна підтримка, визначені ролі та регулярна звітність.",
+    svc_team_for:
+      "Компаніям без власного логістичного відділу або під час трансформації.",
+    svc_team_problem:
+      "Нестача ресурсів для щоденної координації та стратегічного розвитку.",
+    svc_team_result:
+      "Зовнішня операційна підтримка, визначені ролі та регулярна звітність.",
     svc_leaders_title: "Навчання та консультаційна підтримка керівників",
     svc_leaders_desc: "Управлінські інструменти для логістичних команд.",
-    svc_leaders_for: "Керівникам логістики, операційним директорам і власникам бізнесу.",
-    svc_leaders_problem: "Складні рішення, неузгоджені KPI та брак практичних управлінських навичок.",
-    svc_leaders_result: "Індивідуальний план розвитку, управлінські інструменти та підтримка впровадження.",
-  
+    svc_leaders_for:
+      "Керівникам логістики, операційним директорам і власникам бізнесу.",
+    svc_leaders_problem:
+      "Складні рішення, неузгоджені KPI та брак практичних управлінських навичок.",
+    svc_leaders_result:
+      "Індивідуальний план розвитку, управлінські інструменти та підтримка впровадження.",
+
     aboutCertOpenImage2025: "Відкрити диплом спікерки 2025 у повному розмірі",
     aboutCertOpenImage2026: "Відкрити диплом спікерки 2026 у повному розмірі",
     aboutCertImageAlt2025: "Диплом спікерки Катерини Артюх, День Логіста 2025",
     aboutCertImageAlt2026: "Диплом спікерки Катерини Артюх, День Логіста 2026",
-},
+    aboutDetailsExpertise:
+      "Міжнародні авіаційні, морські, автомобільні, залізничні та внутрішні водні перевезення. Логістика небезпечних вантажів відповідно до IATA DGR / ICAO TI, IMO / IMDG Code, ADR, RID та ADN. Температурно-контрольована логістика, холодовий ланцюг, фармацевтичні перевезення та логістика клінічних досліджень. Робота зі стандартами GDP, GCP, GMP, GDocP, GManP, GTP, розроблення та впровадження SOP.",
+  },
   en: {
     aboutDetailsButton: "LEARN MORE",
     aboutDetailsClose: "Close",
     aboutDetailsEyebrow: "PROFESSIONAL PROFILE",
     aboutDetailsHeading: "Experience that shapes solutions.",
-    aboutDetailsLead: "Over 20 years in international logistics, pharmaceutical supply chains and risk management.",
+    aboutDetailsLead:
+      "Over 20 years in international logistics, pharmaceutical supply chains and risk management.",
     aboutDetailsWorkLabel: "PROFESSIONAL EXPERIENCE",
-    aboutDetailsWork: "Senior Client Relationship Manager. Experience in clinical trial logistics, pharmaceutical shipments, cold-chain logistics and dangerous goods.",
+    aboutDetailsWork:
+      "Senior Client Relationship Manager. Experience in clinical trial logistics, pharmaceutical shipments, cold-chain logistics and dangerous goods.",
     aboutDetailsProfile: "VIEW LINKEDIN PROFILE",
     aboutDetailsExpertiseLabel: "SPECIALIZATION",
-    aboutDetailsExpertise: "International air and sea freight, dangerous goods, temperature-controlled logistics, IATA, GDP, GCP, GMP, GDocP, GManP, GTP, and SOP development and implementation.",
+    aboutDetailsExpertise:
+      "International air and sea freight, dangerous goods, temperature-controlled logistics, IATA, GDP, GCP, GMP, GDocP, GManP, GTP, and SOP development and implementation.",
     aboutDetailsGeographyLabel: "GLOBAL EXPERIENCE",
-    aboutDetailsGeography: "Coordinating shipments across Asia, the USA, Canada, South America, Europe, the Middle East, Africa and Australia. Experience with UKRSEPRO, Ministry of Health documentation and HS codes.",
+    aboutDetailsGeography:
+      "Coordinating shipments across Asia, the USA, Canada, South America, Europe, the Middle East, Africa and Australia. Experience with UKRSEPRO, Ministry of Health documentation and HS codes.",
     aboutDetailsEducationLabel: "EDUCATION & LANGUAGES",
-    aboutDetailsEducation: "Zaporizhzhya State University. Languages: Ukrainian and English.",
+    aboutDetailsEducation:
+      "Zaporizhzhya State University. Languages: Ukrainian and English.",
     aboutDetailsEducationLink: "VIEW EDUCATION",
     aboutDetailsAwardsLabel: "CERTIFICATES & AWARDS",
     aboutDetailsAwardsHeading: "Professional recognition",
@@ -290,12 +337,14 @@ window.siteTranslations = {
     aboutCertView: "VIEW DIPLOMA",
     aboutCertPrev: "Previous certificate",
     aboutCertNext: "Next certificate",
-    aboutCertNote: "Slides show certificate information. Document scans can be added later.",
+    aboutCertNote:
+      "Slides show certificate information. Document scans can be added later.",
 
     contactsEyebrow: "CONTACT",
     contactsTitleOne: "Let's stay",
     contactsTitleTwo: "connected.",
-    contactsDescription: "Open to new projects, professional partnerships and international collaboration.",
+    contactsDescription:
+      "Open to new projects, professional partnerships and international collaboration.",
     contactsCta: "GET IN TOUCH",
     contactsEmailLabel: "EMAIL",
     contactsPhoneLabel: "WHATSAPP / PHONE",
@@ -426,7 +475,8 @@ window.siteTranslations = {
     trainingTopic4_6: "Business continuity",
     speakerEyebrow: "INTERNATIONAL SPEAKER",
     speakerTitleOne: "International Expert & Speaker",
-    speakerDescription: "I share practical experience in international logistics, supply chain management, pharmaceutical logistics, clinical trials, cold chain management and risk management.",
+    speakerDescription:
+      "I share practical experience in international logistics, supply chain management, pharmaceutical logistics, clinical trials, cold chain management and risk management.",
     speakerEventType: "CONFERENCE PRESENTATION",
     trainingTitleFirst: "Training, workshops",
     trainingTitleSecond: "& webinars",
@@ -444,99 +494,139 @@ window.siteTranslations = {
     socialMedia: "Social media",
     chooseLanguage: "Choose language",
     heroImage: "Ekaterina Artyukh — international logistics expert",
-    aboutImage: "Ekaterina Artyukh — international expert in logistics and leadership",
+    aboutImage:
+      "Ekaterina Artyukh — international expert in logistics and leadership",
     benefitsAria: "Our strengths",
     brandAria: "Ekaterina Artyukh — home",
     phoneTitle: "Phone",
     telegramPending: "Telegram — link pending",
     telegramTitle: "Telegram: username or link required",
     viberTitle: "Viber",
-    pageDescription: "Ekaterina Artyukh — strategic logistics, consulting, corporate training and international collaboration.",
+    pageDescription:
+      "Ekaterina Artyukh — strategic logistics, consulting, corporate training and international collaboration.",
     consultingHeading1: "Consulting",
     consultingHeading2: "& Outsourcing",
-    consultingIntro: "Practical expertise to optimize logistics, strengthen supply resilience and grow your business.",
+    consultingIntro:
+      "Practical expertise to optimize logistics, strengthen supply resilience and grow your business.",
     consultingMore: "READ MORE",
-    consultingFor: 'Who it is for',
-    consultingProblem: 'Challenge addressed',
-    consultingResult: 'Potential outcome',
-    consultingOrder: 'How to book',
-    consultingOrderText: 'Use the button below to send a WhatsApp message with a short description of your challenge. We will agree on an initial consultation format.',
-    consultingCTA: 'REQUEST A CONSULTATION',
-    consultingClose: 'Close dialog',
-    consultingPrev: 'Previous service',
-    consultingNext: 'Next service',
-    consultingBanner: 'Consulting and outsourcing',
+    consultingFor: "Who it is for",
+    consultingProblem: "Challenge addressed",
+    consultingResult: "Potential outcome",
+    consultingOrder: "How to book",
+    consultingOrderText:
+      "Use the button below to send a WhatsApp message with a short description of your challenge. We will agree on an initial consultation format.",
+    consultingCTA: "REQUEST A CONSULTATION",
+    consultingClose: "Close dialog",
+    consultingPrev: "Previous service",
+    consultingNext: "Next service",
+    consultingBanner: "Consulting and outsourcing",
     svc_consult_title: "Logistics Consulting",
     svc_consult_desc: "Strategic solutions for efficient logistics.",
-    svc_consult_for: "For companies scaling operations or seeking a structured logistics model.",
-    svc_consult_problem: "Disconnected processes, excess costs and lack of a coherent strategy.",
-    svc_consult_result: "A prioritized roadmap with KPIs and actionable recommendations.",
+    svc_consult_for:
+      "For companies scaling operations or seeking a structured logistics model.",
+    svc_consult_problem:
+      "Disconnected processes, excess costs and lack of a coherent strategy.",
+    svc_consult_result:
+      "A prioritized roadmap with KPIs and actionable recommendations.",
     svc_audit_title: "Logistics Process Audit & Analysis",
     svc_audit_desc: "Identify bottlenecks and improvement opportunities.",
-    svc_audit_for: "For businesses with complex supply chains or rising operating costs.",
-    svc_audit_problem: "Unclear costs, delays and inconsistent service quality.",
-    svc_audit_result: "A process map, performance assessment and optimization plan.",
+    svc_audit_for:
+      "For businesses with complex supply chains or rising operating costs.",
+    svc_audit_problem:
+      "Unclear costs, delays and inconsistent service quality.",
+    svc_audit_result:
+      "A process map, performance assessment and optimization plan.",
     svc_transport_title: "International Transport Optimization",
     svc_transport_desc: "Better routes, lead times and freight costs.",
     svc_transport_for: "For importers, exporters and international companies.",
-    svc_transport_problem: "Costly routes, delays and unreliable transportation.",
-    svc_transport_result: "Scenario comparison, an improved transport model and cost visibility.",
+    svc_transport_problem:
+      "Costly routes, delays and unreliable transportation.",
+    svc_transport_result:
+      "Scenario comparison, an improved transport model and cost visibility.",
     svc_risk_title: "Logistics Risk Assessment",
     svc_risk_desc: "A structured approach to supply risks.",
-    svc_risk_for: "For companies dependent on international deliveries and critical routes.",
-    svc_risk_problem: "Unexpected disruptions, supplier concentration and missing backup scenarios.",
+    svc_risk_for:
+      "For companies dependent on international deliveries and critical routes.",
+    svc_risk_problem:
+      "Unexpected disruptions, supplier concentration and missing backup scenarios.",
     svc_risk_result: "A risk matrix, response priorities and mitigation plan.",
     svc_bcp_title: "Business Continuity Planning (BCP)",
     svc_bcp_desc: "Keep logistics running through disruption.",
-    svc_bcp_for: "For businesses where shipment interruptions cause major losses.",
-    svc_bcp_problem: "Unpreparedness for disruptions, unclear roles and slow recovery.",
-    svc_bcp_result: "A BCP with alternative scenarios, owners and testing procedures.",
+    svc_bcp_for:
+      "For businesses where shipment interruptions cause major losses.",
+    svc_bcp_problem:
+      "Unpreparedness for disruptions, unclear roles and slow recovery.",
+    svc_bcp_result:
+      "A BCP with alternative scenarios, owners and testing procedures.",
     svc_outsourcing_title: "Outsourcing Logistics Functions",
     svc_outsourcing_desc: "Professional support without expanding headcount.",
     svc_outsourcing_for: "For SMEs or teams facing peak workloads.",
-    svc_outsourcing_problem: "Expertise gaps, overloaded teams and difficult vendor oversight.",
-    svc_outsourcing_result: "Defined responsibilities, transparent KPIs and managed operations.",
+    svc_outsourcing_problem:
+      "Expertise gaps, overloaded teams and difficult vendor oversight.",
+    svc_outsourcing_result:
+      "Defined responsibilities, transparent KPIs and managed operations.",
     svc_trade_title: "Foreign Trade Coordination",
     svc_trade_desc: "Aligned stakeholders across international trade.",
-    svc_trade_for: "For companies launching or expanding import/export operations.",
-    svc_trade_problem: "Communication gaps, documentation errors and handover delays.",
-    svc_trade_result: "Clear workflows, milestone oversight and partner coordination.",
+    svc_trade_for:
+      "For companies launching or expanding import/export operations.",
+    svc_trade_problem:
+      "Communication gaps, documentation errors and handover delays.",
+    svc_trade_result:
+      "Clear workflows, milestone oversight and partner coordination.",
     svc_projects_title: "International Shipment Project Support",
     svc_projects_desc: "Support for complex and non-standard shipments.",
-    svc_projects_for: "For companies managing major one-off or business-critical shipments.",
-    svc_projects_problem: "Multiple parties, tight deadlines and high coordination risk.",
-    svc_projects_result: "A project plan, milestone tracking and coordinated communication.",
+    svc_projects_for:
+      "For companies managing major one-off or business-critical shipments.",
+    svc_projects_problem:
+      "Multiple parties, tight deadlines and high coordination risk.",
+    svc_projects_result:
+      "A project plan, milestone tracking and coordinated communication.",
     svc_team_title: "External Logistics Team for Business",
     svc_team_desc: "A flexible expert team tailored to business needs.",
-    svc_team_for: "For companies without an in-house logistics team or in transition.",
-    svc_team_problem: "Insufficient resources for daily coordination and strategic improvement.",
-    svc_team_result: "External operational support, defined roles and regular reporting.",
+    svc_team_for:
+      "For companies without an in-house logistics team or in transition.",
+    svc_team_problem:
+      "Insufficient resources for daily coordination and strategic improvement.",
+    svc_team_result:
+      "External operational support, defined roles and regular reporting.",
     svc_leaders_title: "Leadership Training & Advisory Support",
     svc_leaders_desc: "Management tools for logistics leaders.",
-    svc_leaders_for: "For logistics managers, operations directors and business owners.",
-    svc_leaders_problem: "Complex decisions, misaligned KPIs and management skill gaps.",
-    svc_leaders_result: "A tailored development plan, management tools and implementation support.",
-  
+    svc_leaders_for:
+      "For logistics managers, operations directors and business owners.",
+    svc_leaders_problem:
+      "Complex decisions, misaligned KPIs and management skill gaps.",
+    svc_leaders_result:
+      "A tailored development plan, management tools and implementation support.",
+
     aboutCertOpenImage2025: "Open the 2025 speaker diploma full size",
     aboutCertOpenImage2026: "Open the 2026 speaker diploma full size",
-    aboutCertImageAlt2025: "Kateryna Artyukh speaker diploma, Logistics Day 2025",
-    aboutCertImageAlt2026: "Kateryna Artyukh speaker diploma, Logistics Day 2026",
-},
+    aboutCertImageAlt2025:
+      "Kateryna Artyukh speaker diploma, Logistics Day 2025",
+    aboutCertImageAlt2026:
+      "Kateryna Artyukh speaker diploma, Logistics Day 2026",
+    aboutDetailsExpertise:
+      "International air, sea, road, rail and inland waterway transportation. Dangerous goods logistics in accordance with IATA DGR / ICAO TI, IMO / IMDG Code, ADR, RID and ADN. Temperature-controlled logistics, cold chain management, pharmaceutical transportation and clinical trial logistics. Experience with GDP, GCP, GMP, GDocP, GManP and GTP standards, including SOP development and implementation.",
+  },
   de: {
     aboutDetailsButton: "MEHR ERFAHREN",
     aboutDetailsClose: "Schließen",
     aboutDetailsEyebrow: "BERUFSPROFIL",
     aboutDetailsHeading: "Erfahrung, die Lösungen prägt.",
-    aboutDetailsLead: "Über 20 Jahre Erfahrung in internationaler Logistik, pharmazeutischen Lieferketten und Risikomanagement.",
+    aboutDetailsLead:
+      "Über 20 Jahre Erfahrung in internationaler Logistik, pharmazeutischen Lieferketten und Risikomanagement.",
     aboutDetailsWorkLabel: "BERUFSERFAHRUNG",
-    aboutDetailsWork: "Senior Client Relationship Manager. Erfahrung in der Logistik klinischer Studien, Pharmatransporten, Kühlketten und Gefahrgut.",
+    aboutDetailsWork:
+      "Senior Client Relationship Manager. Erfahrung in der Logistik klinischer Studien, Pharmatransporten, Kühlketten und Gefahrgut.",
     aboutDetailsProfile: "LINKEDIN-PROFIL ANSEHEN",
     aboutDetailsExpertiseLabel: "SPEZIALISIERUNG",
-    aboutDetailsExpertise: "Internationale Luft- und Seefracht, Gefahrgut, temperaturgeführte Logistik, IATA, GDP, GCP, GMP, GDocP, GManP, GTP sowie Entwicklung und Umsetzung von SOPs.",
+    aboutDetailsExpertise:
+      "Internationale Luft- und Seefracht, Gefahrgut, temperaturgeführte Logistik, IATA, GDP, GCP, GMP, GDocP, GManP, GTP sowie Entwicklung und Umsetzung von SOPs.",
     aboutDetailsGeographyLabel: "INTERNATIONALE ERFAHRUNG",
-    aboutDetailsGeography: "Koordination von Sendungen in Asien, den USA, Kanada, Südamerika, Europa, dem Nahen Osten, Afrika und Australien. Erfahrung mit UKRSEPRO, Unterlagen des Gesundheitsministeriums und HS-Codes.",
+    aboutDetailsGeography:
+      "Koordination von Sendungen in Asien, den USA, Kanada, Südamerika, Europa, dem Nahen Osten, Afrika und Australien. Erfahrung mit UKRSEPRO, Unterlagen des Gesundheitsministeriums und HS-Codes.",
     aboutDetailsEducationLabel: "AUSBILDUNG & SPRACHEN",
-    aboutDetailsEducation: "Staatliche Universität Saporischschja. Sprachen: Ukrainisch und Englisch.",
+    aboutDetailsEducation:
+      "Staatliche Universität Saporischschja. Sprachen: Ukrainisch und Englisch.",
     aboutDetailsEducationLink: "AUSBILDUNG ANSEHEN",
     aboutDetailsAwardsLabel: "ZERTIFIKATE & AUSZEICHNUNGEN",
     aboutDetailsAwardsHeading: "Berufliche Anerkennung",
@@ -551,12 +641,14 @@ window.siteTranslations = {
     aboutCertView: "DIPLOM ANSEHEN",
     aboutCertPrev: "Vorheriges Zertifikat",
     aboutCertNext: "Nächstes Zertifikat",
-    aboutCertNote: "Die Folien zeigen Zertifikatsinformationen. Dokumentenscans können später ergänzt werden.",
+    aboutCertNote:
+      "Die Folien zeigen Zertifikatsinformationen. Dokumentenscans können später ergänzt werden.",
 
     contactsEyebrow: "KONTAKT",
     contactsTitleOne: "Bleiben wir",
     contactsTitleTwo: "in Kontakt.",
-    contactsDescription: "Offen für neue Projekte, berufliche Partnerschaften und internationale Zusammenarbeit.",
+    contactsDescription:
+      "Offen für neue Projekte, berufliche Partnerschaften und internationale Zusammenarbeit.",
     contactsCta: "KONTAKT AUFNEHMEN",
     contactsEmailLabel: "E-MAIL",
     contactsPhoneLabel: "WHATSAPP / TELEFON",
@@ -686,7 +778,8 @@ window.siteTranslations = {
     trainingTopic4_6: "Geschäftskontinuität",
     speakerEyebrow: "INTERNATIONALE REFERENTIN",
     speakerTitleOne: "Internationale Expertin & Referentin",
-    speakerDescription: "Ich teile meine Praxiserfahrung in internationaler Logistik, Supply-Chain-Management, Pharmalogistik, klinischen Studien, Kühlkettenmanagement und Risikomanagement.",
+    speakerDescription:
+      "Ich teile meine Praxiserfahrung in internationaler Logistik, Supply-Chain-Management, Pharmalogistik, klinischen Studien, Kühlkettenmanagement und Risikomanagement.",
     speakerEventType: "KONFERENZVORTRAG",
     trainingTitleFirst: "Schulungen, Trainings",
     trainingTitleSecond: "und Webinare",
@@ -704,82 +797,118 @@ window.siteTranslations = {
     socialMedia: "Soziale Medien",
     chooseLanguage: "Sprache wählen",
     heroImage: "Ekaterina Artyukh — internationale Logistikexpertin",
-    aboutImage: "Ekaterina Artyukh — internationale Expertin für Logistik und Führung",
+    aboutImage:
+      "Ekaterina Artyukh — internationale Expertin für Logistik und Führung",
     benefitsAria: "Unsere Stärken",
     brandAria: "Ekaterina Artyukh — Startseite",
     phoneTitle: "Telefon",
     telegramPending: "Telegram — Link ausstehend",
     telegramTitle: "Telegram: Benutzername oder Link erforderlich",
     viberTitle: "Viber",
-    pageDescription: "Ekaterina Artyukh — strategische Logistik, Beratung, Unternehmenstrainings und internationale Zusammenarbeit.",
+    pageDescription:
+      "Ekaterina Artyukh — strategische Logistik, Beratung, Unternehmenstrainings und internationale Zusammenarbeit.",
     consultingHeading1: "Beratung",
     consultingHeading2: "& Outsourcing",
-    consultingIntro: "Praxisorientierte Expertise zur Optimierung Ihrer Logistik, für resiliente Lieferketten und Unternehmenswachstum.",
+    consultingIntro:
+      "Praxisorientierte Expertise zur Optimierung Ihrer Logistik, für resiliente Lieferketten und Unternehmenswachstum.",
     consultingMore: "MEHR ERFAHREN",
-    consultingFor: 'Für wen',
-    consultingProblem: 'Welches Problem wird gelöst',
-    consultingResult: 'Mögliches Ergebnis',
-    consultingOrder: 'So buchen Sie',
-    consultingOrderText: 'Klicken Sie unten, schildern Sie Ihr Anliegen kurz per WhatsApp und wir vereinbaren das Format eines Erstgesprächs.',
-    consultingCTA: 'BERATUNG ANFRAGEN',
-    consultingClose: 'Dialog schließen',
-    consultingPrev: 'Vorherige Leistung',
-    consultingNext: 'Nächste Leistung',
-    consultingBanner: 'Beratung und Outsourcing',
+    consultingFor: "Für wen",
+    consultingProblem: "Welches Problem wird gelöst",
+    consultingResult: "Mögliches Ergebnis",
+    consultingOrder: "So buchen Sie",
+    consultingOrderText:
+      "Klicken Sie unten, schildern Sie Ihr Anliegen kurz per WhatsApp und wir vereinbaren das Format eines Erstgesprächs.",
+    consultingCTA: "BERATUNG ANFRAGEN",
+    consultingClose: "Dialog schließen",
+    consultingPrev: "Vorherige Leistung",
+    consultingNext: "Nächste Leistung",
+    consultingBanner: "Beratung und Outsourcing",
     svc_consult_title: "Logistikberatung",
     svc_consult_desc: "Strategische Lösungen für effiziente Logistik.",
-    svc_consult_for: "Für Unternehmen, die wachsen oder ihre Logistik neu strukturieren.",
-    svc_consult_problem: "Unverbundene Prozesse, unnötige Kosten und fehlende Gesamtstrategie.",
-    svc_consult_result: "Ein priorisierter Maßnahmenplan mit KPIs und umsetzbaren Empfehlungen.",
+    svc_consult_for:
+      "Für Unternehmen, die wachsen oder ihre Logistik neu strukturieren.",
+    svc_consult_problem:
+      "Unverbundene Prozesse, unnötige Kosten und fehlende Gesamtstrategie.",
+    svc_consult_result:
+      "Ein priorisierter Maßnahmenplan mit KPIs und umsetzbaren Empfehlungen.",
     svc_audit_title: "Audit und Analyse logistischer Prozesse",
     svc_audit_desc: "Engpässe und Verbesserungspotenziale erkennen.",
-    svc_audit_for: "Für Unternehmen mit komplexen Lieferketten oder steigenden Betriebskosten.",
-    svc_audit_problem: "Intransparente Kosten, Verzögerungen und schwankende Servicequalität.",
-    svc_audit_result: "Prozessübersicht, Leistungsbewertung und Optimierungsplan.",
+    svc_audit_for:
+      "Für Unternehmen mit komplexen Lieferketten oder steigenden Betriebskosten.",
+    svc_audit_problem:
+      "Intransparente Kosten, Verzögerungen und schwankende Servicequalität.",
+    svc_audit_result:
+      "Prozessübersicht, Leistungsbewertung und Optimierungsplan.",
     svc_transport_title: "Optimierung internationaler Transporte",
     svc_transport_desc: "Bessere Routen, Laufzeiten und Transportkosten.",
-    svc_transport_for: "Für Importeure, Exporteure und international tätige Unternehmen.",
-    svc_transport_problem: "Teure Routen, Verzögerungen und unzuverlässige Transporte.",
-    svc_transport_result: "Szenarienvergleich, verbessertes Transportmodell und Kostentransparenz.",
+    svc_transport_for:
+      "Für Importeure, Exporteure und international tätige Unternehmen.",
+    svc_transport_problem:
+      "Teure Routen, Verzögerungen und unzuverlässige Transporte.",
+    svc_transport_result:
+      "Szenarienvergleich, verbessertes Transportmodell und Kostentransparenz.",
     svc_risk_title: "Bewertung logistischer Risiken",
     svc_risk_desc: "Systematischer Umgang mit Lieferkettenrisiken.",
-    svc_risk_for: "Für Unternehmen mit Abhängigkeit von internationalen Lieferungen und kritischen Routen.",
-    svc_risk_problem: "Unerwartete Störungen, Lieferantenkonzentration und fehlende Alternativen.",
+    svc_risk_for:
+      "Für Unternehmen mit Abhängigkeit von internationalen Lieferungen und kritischen Routen.",
+    svc_risk_problem:
+      "Unerwartete Störungen, Lieferantenkonzentration und fehlende Alternativen.",
     svc_risk_result: "Risikomatrix, Reaktionsprioritäten und Maßnahmenplan.",
     svc_bcp_title: "Entwicklung und Verbesserung von BCP",
     svc_bcp_desc: "Logistik auch in Krisen aufrechterhalten.",
-    svc_bcp_for: "Für Unternehmen, bei denen Lieferunterbrechungen hohe Verluste verursachen.",
-    svc_bcp_problem: "Mangelnde Vorbereitung, unklare Rollen und langsame Wiederherstellung.",
-    svc_bcp_result: "Ein BCP mit Alternativszenarien, Zuständigkeiten und Testverfahren.",
+    svc_bcp_for:
+      "Für Unternehmen, bei denen Lieferunterbrechungen hohe Verluste verursachen.",
+    svc_bcp_problem:
+      "Mangelnde Vorbereitung, unklare Rollen und langsame Wiederherstellung.",
+    svc_bcp_result:
+      "Ein BCP mit Alternativszenarien, Zuständigkeiten und Testverfahren.",
     svc_outsourcing_title: "Outsourcing logistischer Funktionen",
     svc_outsourcing_desc: "Professionelle Unterstützung ohne Personalaufbau.",
     svc_outsourcing_for: "Für KMU oder Teams mit hoher Auslastung.",
-    svc_outsourcing_problem: "Fachkräftemangel, überlastete Teams und schwierige Dienstleistersteuerung.",
-    svc_outsourcing_result: "Definierte Aufgaben, transparente KPIs und steuerbare Abläufe.",
+    svc_outsourcing_problem:
+      "Fachkräftemangel, überlastete Teams und schwierige Dienstleistersteuerung.",
+    svc_outsourcing_result:
+      "Definierte Aufgaben, transparente KPIs und steuerbare Abläufe.",
     svc_trade_title: "Koordination des Außenhandels",
     svc_trade_desc: "Abgestimmte Beteiligte im internationalen Handel.",
-    svc_trade_for: "Für Unternehmen beim Aufbau oder Ausbau von Import-/Exportgeschäften.",
-    svc_trade_problem: "Kommunikationslücken, Dokumentationsfehler und Übergabeverzögerungen.",
-    svc_trade_result: "Klare Abläufe, Meilensteinkontrolle und Partnerkoordination.",
+    svc_trade_for:
+      "Für Unternehmen beim Aufbau oder Ausbau von Import-/Exportgeschäften.",
+    svc_trade_problem:
+      "Kommunikationslücken, Dokumentationsfehler und Übergabeverzögerungen.",
+    svc_trade_result:
+      "Klare Abläufe, Meilensteinkontrolle und Partnerkoordination.",
     svc_projects_title: "Projektbegleitung internationaler Lieferungen",
     svc_projects_desc: "Begleitung komplexer und besonderer Lieferungen.",
-    svc_projects_for: "Für Unternehmen mit großen einmaligen oder geschäftskritischen Lieferungen.",
-    svc_projects_problem: "Viele Beteiligte, enge Fristen und hohe Koordinationsrisiken.",
-    svc_projects_result: "Projektplan, Meilensteinverfolgung und abgestimmte Kommunikation.",
+    svc_projects_for:
+      "Für Unternehmen mit großen einmaligen oder geschäftskritischen Lieferungen.",
+    svc_projects_problem:
+      "Viele Beteiligte, enge Fristen und hohe Koordinationsrisiken.",
+    svc_projects_result:
+      "Projektplan, Meilensteinverfolgung und abgestimmte Kommunikation.",
     svc_team_title: "Externes Logistikteam für Unternehmen",
     svc_team_desc: "Ein flexibles Expertenteam nach Unternehmensbedarf.",
-    svc_team_for: "Für Unternehmen ohne eigene Logistikabteilung oder im Wandel.",
-    svc_team_problem: "Fehlende Ressourcen für tägliche Koordination und strategische Entwicklung.",
-    svc_team_result: "Externe operative Unterstützung, klare Rollen und regelmäßiges Reporting.",
+    svc_team_for:
+      "Für Unternehmen ohne eigene Logistikabteilung oder im Wandel.",
+    svc_team_problem:
+      "Fehlende Ressourcen für tägliche Koordination und strategische Entwicklung.",
+    svc_team_result:
+      "Externe operative Unterstützung, klare Rollen und regelmäßiges Reporting.",
     svc_leaders_title: "Training und Beratung für Führungskräfte",
     svc_leaders_desc: "Managementinstrumente für Logistikführungskräfte.",
-    svc_leaders_for: "Für Logistikleiter, operative Führungskräfte und Unternehmer.",
-    svc_leaders_problem: "Komplexe Entscheidungen, uneinheitliche KPIs und Führungskompetenzlücken.",
-    svc_leaders_result: "Individueller Entwicklungsplan, Führungsinstrumente und Umsetzungsbegleitung.",
-  
+    svc_leaders_for:
+      "Für Logistikleiter, operative Führungskräfte und Unternehmer.",
+    svc_leaders_problem:
+      "Komplexe Entscheidungen, uneinheitliche KPIs und Führungskompetenzlücken.",
+    svc_leaders_result:
+      "Individueller Entwicklungsplan, Führungsinstrumente und Umsetzungsbegleitung.",
+
     aboutCertOpenImage2025: "Rednerdiplom 2025 in voller Größe öffnen",
     aboutCertOpenImage2026: "Rednerdiplom 2026 in voller Größe öffnen",
-    aboutCertImageAlt2025: "Rednerdiplom von Kateryna Artyukh, Tag der Logistik 2025",
-    aboutCertImageAlt2026: "Rednerdiplom von Kateryna Artyukh, Tag der Logistik 2026",
-},
+    aboutCertImageAlt2025:
+      "Rednerdiplom von Kateryna Artyukh, Tag der Logistik 2025",
+    aboutCertImageAlt2026:
+      "Rednerdiplom von Kateryna Artyukh, Tag der Logistik 2026",
+    aboutDetailsExpertise:
+      "Internationale Luft-, See-, Straßen-, Schienen- und Binnenschiffstransporte. Gefahrgutlogistik gemäß IATA DGR / ICAO TI, IMO / IMDG-Code, ADR, RID und ADN. Temperaturgeführte Logistik, Kühlkettenmanagement, Pharmatransporte und Logistik für klinische Studien. Erfahrung mit den Standards GDP, GCP, GMP, GDocP, GManP und GTP sowie der Entwicklung und Implementierung von SOPs.",
+  },
 };
