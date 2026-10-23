@@ -43,7 +43,7 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.dataset.i18n;
     if (!Object.prototype.hasOwnProperty.call(t, key)) return;
-    if (key === "title" || key === "aboutSubtitle") el.innerHTML = t[key];
+    if (key === "title" || key === "aboutSubtitle" || key === "aboutDetailsWork" || key === "aboutDetailsGeography") el.innerHTML = t[key];
     else el.textContent = t[key];
   });
 

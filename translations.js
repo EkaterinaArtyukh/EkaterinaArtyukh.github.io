@@ -9,14 +9,14 @@ window.siteTranslations = {
       "Понад 20 років у міжнародній логістиці, фармацевтичних ланцюгах постачання та управлінні ризиками.",
     aboutDetailsWorkLabel: "ПРОФЕСІЙНИЙ ДОСВІД",
     aboutDetailsWork:
-      "Senior Client Relationship Manager. Робота з логістикою клінічних досліджень, фармацевтичними поставками, холодовим ланцюгом та небезпечними вантажами.",
+      "<strong>Міжнародна логістика • Фармацевтична логістика • Логістика клінічних досліджень • Управління ризиками ланцюгів постачання</strong><br><br>Експертиза в організації міжнародних перевезень, управлінні клієнтськими відносинами, фармацевтичних поставках, температурно-контрольованій логістиці та перевезенні небезпечних вантажів.<br><br><strong>Професійний фокус:</strong> аналіз логістичних процесів, виявлення операційних ризиків, оптимізація міжнародних ланцюгів постачання та розроблення практичних рішень для підвищення їхньої надійності, ефективності й стійкості.",
     aboutDetailsProfile: "ПРОФІЛЬ У LINKEDIN",
     aboutDetailsExpertiseLabel: "СПЕЦІАЛІЗАЦІЯ",
     aboutDetailsExpertise:
       "Міжнародні авіаційні та морські перевезення, небезпечні вантажі, температурно-контрольована логістика, IATA, GDP, GCP, GMP, GDocP, GManP, GTP, розроблення та впровадження SOP.",
     aboutDetailsGeographyLabel: "МІЖНАРОДНА ПРАКТИКА",
     aboutDetailsGeography:
-      "Координація перевезень між Азією, США, Канадою, Південною Америкою, Європою, Близьким Сходом, Африкою та Австралією. Робота з документацією UKRSEPRO, МОЗ і кодами HS.",
+      "Професійний досвід координації міжнародних логістичних операцій у таких регіонах:<br><br>• <strong>EMEA — Європа, Близький Схід та Африка.</strong><br>• <strong>APAC — Азійсько-Тихоокеанський регіон.</strong><br>• <strong>LATAM — Латинська Америка.</strong><br>• <strong>NA — Північна Америка (Сполучені Штати Америки та Канада).</strong><br><br>Робота з міжнародними маршрутами, транспортними партнерами, регуляторною документацією та митними процедурами на відповідних міжнародних ринках.<br><br>Експертиза у сфері сертифікації UKRSEPRO, вимог Міністерства охорони здоров’я України (МОЗ) та класифікації товарів за кодами HS.",
     aboutDetailsEducationLabel: "ОСВІТА ТА МОВИ",
     aboutDetailsEducation:
       "Запорізький державний університет. Мови: українська та англійська.",
@@ -312,14 +312,14 @@ window.siteTranslations = {
       "Over 20 years in international logistics, pharmaceutical supply chains and risk management.",
     aboutDetailsWorkLabel: "PROFESSIONAL EXPERIENCE",
     aboutDetailsWork:
-      "Senior Client Relationship Manager. Experience in clinical trial logistics, pharmaceutical shipments, cold-chain logistics and dangerous goods.",
+      "<h3>International Logistics • Pharmaceutical Logistics • Clinical Trial Logistics • Supply Chain Risk Management</h3><p>Expertise in international transportation, client relationship management, pharmaceutical shipments, temperature-controlled logistics, and dangerous goods transportation.<br><br><strong>Professional focus:</strong> logistics process analysis, operational risk identification, international supply chain optimisation, and the development of practical solutions to improve supply chain reliability, efficiency, and resilience.</p>",
     aboutDetailsProfile: "VIEW LINKEDIN PROFILE",
     aboutDetailsExpertiseLabel: "SPECIALIZATION",
     aboutDetailsExpertise:
       "International air and sea freight, dangerous goods, temperature-controlled logistics, IATA, GDP, GCP, GMP, GDocP, GManP, GTP, and SOP development and implementation.",
     aboutDetailsGeographyLabel: "GLOBAL EXPERIENCE",
     aboutDetailsGeography:
-      "Coordinating shipments across Asia, the USA, Canada, South America, Europe, the Middle East, Africa and Australia. Experience with UKRSEPRO, Ministry of Health documentation and HS codes.",
+      "Professional experience coordinating international logistics operations across the following regions:<br><br>• <strong>EMEA — Europe, the Middle East and Africa.</strong><br>• <strong>APAC — Asia-Pacific.</strong><br>• <strong>LATAM — Latin America.</strong><br>• <strong>NA — North America (the United States and Canada).</strong><br><br>Experience in managing international routes, transportation partners, regulatory documentation, and customs procedures across relevant international markets.<br><br>Expertise in UKRSEPRO certification, Ukrainian Ministry of Health requirements, and HS commodity classification.",
     aboutDetailsEducationLabel: "EDUCATION & LANGUAGES",
     aboutDetailsEducation:
       "Zaporizhzhya State University. Languages: Ukrainian and English.",
@@ -616,14 +616,14 @@ window.siteTranslations = {
       "Über 20 Jahre Erfahrung in internationaler Logistik, pharmazeutischen Lieferketten und Risikomanagement.",
     aboutDetailsWorkLabel: "BERUFSERFAHRUNG",
     aboutDetailsWork:
-      "Senior Client Relationship Manager. Erfahrung in der Logistik klinischer Studien, Pharmatransporten, Kühlketten und Gefahrgut.",
+      "<h3>Internationale Logistik • Pharmalogistik • Logistik klinischer Studien • Risikomanagement in Lieferketten</h3><p>Expertise in der Organisation internationaler Transporte, im Kundenbeziehungsmanagement, bei pharmazeutischen Lieferungen, in der temperaturgeführten Logistik und beim Transport gefährlicher Güter.<br><br><strong>Beruflicher Schwerpunkt:</strong> Analyse logistischer Prozesse, Identifizierung operativer Risiken, Optimierung internationaler Lieferketten und Entwicklung praxisorientierter Lösungen zur Verbesserung ihrer Zuverlässigkeit, Effizienz und Widerstandsfähigkeit.</p>",
     aboutDetailsProfile: "LINKEDIN-PROFIL ANSEHEN",
     aboutDetailsExpertiseLabel: "SPEZIALISIERUNG",
     aboutDetailsExpertise:
       "Internationale Luft- und Seefracht, Gefahrgut, temperaturgeführte Logistik, IATA, GDP, GCP, GMP, GDocP, GManP, GTP sowie Entwicklung und Umsetzung von SOPs.",
     aboutDetailsGeographyLabel: "INTERNATIONALE ERFAHRUNG",
     aboutDetailsGeography:
-      "Koordination von Sendungen in Asien, den USA, Kanada, Südamerika, Europa, dem Nahen Osten, Afrika und Australien. Erfahrung mit UKRSEPRO, Unterlagen des Gesundheitsministeriums und HS-Codes.",
+      "Berufserfahrung in der Koordination internationaler Logistikprozesse in folgenden Regionen:<br><br>• <strong>EMEA — Europa, Naher Osten und Afrika.</strong><br>• <strong>APAC — Asien-Pazifik-Raum.</strong><br>• <strong>LATAM — Lateinamerika.</strong><br>• <strong>NA — Nordamerika (Vereinigte Staaten von Amerika und Kanada).</strong><br><br>Erfahrung im Umgang mit internationalen Transportrouten, Transportpartnern, regulatorischen Dokumenten und Zollverfahren auf den jeweiligen internationalen Märkten.<br><br>Expertise in der UKRSEPRO-Zertifizierung, den Anforderungen des ukrainischen Gesundheitsministeriums und der Warenklassifizierung nach HS-Codes.",
     aboutDetailsEducationLabel: "AUSBILDUNG & SPRACHEN",
     aboutDetailsEducation:
       "Staatliche Universität Saporischschja. Sprachen: Ukrainisch und Englisch.",
