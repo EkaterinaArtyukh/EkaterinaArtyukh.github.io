@@ -71,6 +71,7 @@ function setLanguage(lang) {
         ? "Strategic Logistics & Consulting"
         : "Strategische Logistik & Beratung");
 }
+setLanguage(document.documentElement.lang);
 document
   .querySelectorAll("[data-lang]")
   .forEach((btn) =>
