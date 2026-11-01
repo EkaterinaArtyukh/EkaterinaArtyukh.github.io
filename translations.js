@@ -6,15 +6,19 @@ window.siteTranslations = {
     blogNext: "Наступна публікація",
     blogOneType: "ЕКСПЕРТНІ ПУБЛІКАЦІЇ · ВЕБІНАР",
     blogOneTitle: "Гнучкість і безперервність холодних ланцюгів постачання",
-    blogOneDesc: "Критичні стандарти та практика їх дотримання в глобальній логістиці. Вебінар у Транспортному університеті, Київ.",
+    blogOneDesc:
+      "Критичні стандарти та практика їх дотримання в глобальній логістиці. Вебінар у Транспортному університеті, Київ.",
     blogOneButton: "ПЕРЕГЛЯНУТИ ВЕБІНАР",
     blogTwoType: "ЕКСПЕРТНІ ПУБЛІКАЦІЇ · ВЕБІНАР",
-    blogTwoTitle: "Організація мультимодального перевезення ортофосфорної кислоти",
-    blogTwoDesc: "Практичний кейс перевезення небезпечного вантажу класу 8 з Китаю (Фанченг) до України (Одеса — Київ).",
+    blogTwoTitle:
+      "Організація мультимодального перевезення ортофосфорної кислоти",
+    blogTwoDesc:
+      "Практичний кейс перевезення небезпечного вантажу класу 8 з Китаю (Фанченг) до України (Одеса — Київ).",
     blogTwoButton: "ПЕРЕГЛЯНУТИ ВЕБІНАР",
     blogThreeType: "ЕКСПЕРТНІ ПУБЛІКАЦІЇ · ВІДЕО",
     blogThreeTitle: "Новий міст між Україною та Румунією",
-    blogThreeDesc: "Які можливості він відкриває для міжнародної логістики, транспортного сполучення та економічної співпраці? Ексклюзивний матеріал з кордону.",
+    blogThreeDesc:
+      "Які можливості він відкриває для міжнародної логістики, транспортного сполучення та економічної співпраці? Ексклюзивний матеріал з кордону.",
     blogThreeButton: "ПЕРЕГЛЯНУТИ ВІДЕО",
 
     aboutDetailsButton: "ДЕТАЛЬНІШЕ",
@@ -316,25 +320,30 @@ window.siteTranslations = {
     aboutCertOpenImage2026: "Відкрити диплом спікерки 2026 у повному розмірі",
     aboutCertImageAlt2025: "Диплом спікерки Катерини Артюх, День Логіста 2025",
     aboutCertImageAlt2026: "Диплом спікерки Катерини Артюх, День Логіста 2026",
+    speakerLogisticsDay: "День Логіста · TradeMasterGroup",
     aboutDetailsExpertise:
       "Міжнародні авіаційні, морські, автомобільні, залізничні та внутрішні водні перевезення. Логістика небезпечних вантажів відповідно до IATA DGR / ICAO TI, IMO / IMDG Code, ADR, RID та ADN. Температурно-контрольована логістика, холодовий ланцюг, фармацевтичні перевезення та логістика клінічних досліджень. Робота зі стандартами GDP, GCP, GMP, GDocP, GManP, GTP, розроблення та впровадження SOP.",
   },
   en: {
+    speakerLogisticsDay: "Logistics Day · TradeMasterGroup",
     blogSectionAria: "Blog and expert publications",
     blogPrev: "Previous publication",
     blogNext: "Next publication",
     blogOneType: "EXPERT PUBLICATIONS · WEBINARS",
     blogOneTitle: "Resilience and Continuity of Cold Supply Chains",
-    blogOneDesc: "Critical standards and practical compliance in global logistics. Webinar at the Transport University in Kyiv.",
+    blogOneDesc:
+      "Critical standards and practical compliance in global logistics. Webinar at the Transport University in Kyiv.",
     blogOneButton: "WATCH WEBINAR (IN UKRAINIAN)",
     blogTwoType: "EXPERT PUBLICATIONS · WEBINARS",
     blogTwoTitle: "Multimodal Transportation of Phosphoric Acid",
-    blogTwoDesc: "A practical case study in transporting Class 8 dangerous goods from China (Fancheng) to Ukraine (Odesa — Kyiv).",
+    blogTwoDesc:
+      "A practical case study in transporting Class 8 dangerous goods from China (Fancheng) to Ukraine (Odesa — Kyiv).",
     blogTwoButton: "WATCH WEBINAR (IN UKRAINIAN)",
     blogThreeType: "EXPERT PUBLICATIONS · VIDEO",
     blogThreeTitle: "The New Bridge Between Ukraine and Romania",
-    blogThreeDesc: "What opportunities does it create for international logistics, transport connectivity, and economic cooperation? Exclusive footage from the border.",
-    blogThreeButton: "WATCH VIDEO",
+    blogThreeDesc:
+      "What opportunities does it create for international logistics, transport connectivity, and economic cooperation? Exclusive footage from the border.",
+    blogThreeButton: "WATCH VIDEO (IN UKRAINIAN)",
 
     aboutDetailsButton: "LEARN MORE",
     aboutDetailsClose: "Close",
@@ -640,21 +649,26 @@ window.siteTranslations = {
       "International air, sea, road, rail and inland waterway transportation. Dangerous goods logistics in accordance with IATA DGR / ICAO TI, IMO / IMDG Code, ADR, RID and ADN. Temperature-controlled logistics, cold chain management, pharmaceutical transportation and clinical trial logistics. Experience with GDP, GCP, GMP, GDocP, GManP and GTP standards, including SOP development and implementation.",
   },
   de: {
+    speakerLogisticsDay: "Tag der Logistik · TradeMasterGroup",
     blogSectionAria: "Blog und Expertenpublikationen",
     blogPrev: "Vorherige Publikation",
     blogNext: "Nächste Publikation",
     blogOneType: "EXPERTENPUBLIKATIONEN · WEBINAR",
     blogOneTitle: "Resilienz und Kontinuität von Kühlketten",
-    blogOneDesc: "Wichtige Standards und ihre praktische Einhaltung in der globalen Logistik. Webinar an der Verkehrsuniversität in Kyjiw.",
+    blogOneDesc:
+      "Wichtige Standards und ihre praktische Einhaltung in der globalen Logistik. Webinar an der Verkehrsuniversität in Kyjiw.",
     blogOneButton: "WEBINAR ANSEHEN (IN UKRAINISCH)",
     blogTwoType: "EXPERTENPUBLIKATIONEN · WEBINAR",
-    blogTwoTitle: "Organisation des multimodalen Transports von Orthophosphorsäure",
-    blogTwoDesc: "Ein praxisnaher Fall zu einem Gefahrgut der Klasse 8 von China (Fancheng) in die Ukraine (Odessa — Kiew).",
+    blogTwoTitle:
+      "Organisation des multimodalen Transports von Orthophosphorsäure",
+    blogTwoDesc:
+      "Ein praxisnaher Fall zu einem Gefahrgut der Klasse 8 von China (Fancheng) in die Ukraine (Odessa — Kyjiw).",
     blogTwoButton: "WEBINAR ANSEHEN (IN UKRAINISCH)",
     blogThreeType: "EXPERTENPUBLIKATIONEN · VIDEO",
     blogThreeTitle: "Die neue Brücke zwischen der Ukraine und Rumänien",
-    blogThreeDesc: "Welche Möglichkeiten eröffnet sie für die internationale Logistik, die Verkehrsanbindung und die wirtschaftliche Zusammenarbeit? Exklusives Videomaterial von der Grenze.",
-    blogThreeButton: "VIDEO ANSEHEN",
+    blogThreeDesc:
+      "Welche Möglichkeiten eröffnet sie für die internationale Logistik, die Verkehrsanbindung und die wirtschaftliche Zusammenarbeit? Exklusives Videomaterial von der Grenze.",
+    blogThreeButton: "VIDEO ANSEHEN (IN UKRAINISCH)",
 
     aboutDetailsButton: "MEHR ERFAHREN",
     aboutDetailsClose: "Schließen",
