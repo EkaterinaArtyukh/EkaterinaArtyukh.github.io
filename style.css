@@ -574,7 +574,7 @@ button:focus-visible,
 
 @media (max-width: 767px) {
   .hero {
-    background-image: url("img/hero-mobile.png");
+    background-image: url("img/hero-mobile.webp");
     background-size: cover;
     background-position: 20% 30%;
     background-repeat: no-repeat;
@@ -789,7 +789,7 @@ button:focus-visible,
   position: absolute;
   inset: -24px;
   z-index: -2;
-  background: url("img/benefits-bg.jpg") center / cover no-repeat;
+  background: url("img/benefits-bg.webp") center / cover no-repeat;
   filter: blur(8px);
   transform: scale(1.04);
   pointer-events: none;
@@ -1308,7 +1308,7 @@ button:focus-visible,
       rgba(87, 24, 42, 0.76) 50%,
       rgba(60, 12, 27, 0.48) 100%
     ),
-    url("img/quote-bg.png");
+    url("img/quote-bg.webp");
 
   background-position: 0 center;
   background-size: cover;
@@ -1721,7 +1721,7 @@ button:focus-visible,
   width: 100%;
   height: clamp(300px, 34vw, 540px);
 
-  background-image: url("img/expertise.png");
+  background-image: url("img/expertise.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2399,7 +2399,7 @@ body.expertise-modal-open {
     aspect-ratio: 2048 / 685;
     min-height: 0;
 
-    background-image: url("img/expertise.png");
+    background-image: url("img/expertise.webp");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -2432,7 +2432,7 @@ body.expertise-modal-open {
   inset: 0;
   z-index: -2;
 
-  background-image: url("img/speaker-conference.png");
+  background-image: url("img/speaker-conference.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 45%;
@@ -2764,7 +2764,7 @@ body.expertise-modal-open {
 }
 
 .education {
-  background-image: url(img/education.png);
+  background-image: url(img/education.webp);
 }
 .education .expertise-banner-caption {
   color: var(--bordeaux);
@@ -3190,7 +3190,7 @@ body.expertise-modal-open {
 }
 
 .contacts {
-  background-image: url(img/contacts.png);
+  background-image: url(img/contacts.webp);
 }
 
 .contacts-editorial {
@@ -3201,7 +3201,7 @@ body.expertise-modal-open {
       rgba(247, 241, 233, 0.64) 46%,
       rgba(247, 241, 233, 0.92) 100%
     ),
-    url("img/contacts-back.png") center / cover no-repeat;
+    url("img/contacts-back.webp") center / cover no-repeat;
   color: var(--chocolate);
   overflow: hidden;
   scroll-margin-top: 90px;
@@ -3395,7 +3395,7 @@ a.contacts-editorial-sub:hover,
   height: clamp(145px, 17vw, 250px);
   background:
     linear-gradient(rgba(40, 22, 14, 0.16), rgba(40, 22, 14, 0.26)),
-    url("img/contacts-bottom.webp") center / cover no-repeat,
+    url("img/contacts-back.webp") center / cover no-repeat,
     #6c4935;
 }
 

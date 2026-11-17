@@ -75,7 +75,12 @@ setLanguage(document.documentElement.lang);
 document
   .querySelectorAll("[data-lang]")
   .forEach((btn) =>
-    btn.addEventListener("click", () => setLanguage(btn.dataset.lang)),
+    btn.addEventListener("click", () => {
+      const fromRoot = document.documentElement.lang === "uk";
+      const target = btn.dataset.lang === "uk" ? "" : `${btn.dataset.lang}/`;
+      const path = (fromRoot ? "./" : "../") + target;
+      window.location.assign(path + window.location.hash);
+    }),
   );
 
 
